@@ -1,0 +1,1 @@
+execute if entity @s[tag=um2.flare_runner_anim] run function um2:item/flare_runner/anim_tick
