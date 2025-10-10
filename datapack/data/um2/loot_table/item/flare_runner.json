@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_spear",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "um2:flare_runner",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "um2:flare_runner",
+                  "amount": -3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.um2.flare_runner"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{um_dat:{flare_runner:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "um2:flare_runner",
+                "minecraft:rarity": "uncommon",
+                "minecraft:use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 1
+                },
+                "minecraft:minimum_attack_charge": 1,
+                "minecraft:damage_type": "minecraft:spear",
+                "minecraft:kinetic_weapon": {
+                  "min_reach": 1,
+                  "max_reach": 5,
+                  "hitbox_margin": 0.25,
+                  "delay_ticks": 10,
+                  "damage_conditions": {
+                    "max_duration_ticks": 30
+                  },
+                  "knockback_conditions": {
+                    "max_duration_ticks": 30
+                  },
+                  "dismount_conditions": {
+                    "max_duration_ticks": 30
+                  },
+                  "sound": "minecraft:item.spear.use",
+                  "hit_sound": "minecraft:item.spear.hit"
+                },
+                "minecraft:piercing_weapon": {
+                  "min_reach": 1,
+                  "max_reach": 5,
+                  "hitbox_margin": 0.25,
+                  "sound": "minecraft:item.spear.attack",
+                  "hit_sound": "minecraft:item.spear.hit"
+                },
+                "minecraft:swing_animation": {
+                  "type": "stab",
+                  "duration": 20
+                },
+                "!minecraft:max_damage": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

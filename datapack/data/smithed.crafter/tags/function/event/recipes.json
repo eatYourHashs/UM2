@@ -1,6 +1,5 @@
 {
     "values":[
-        "#smithed.crafter:recipes/shaped",
-        "alchemika:block/smithed_crafter/shaped"
+        "#smithed.crafter:recipes/shaped"
     ]
 }

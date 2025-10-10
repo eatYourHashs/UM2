@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "flags": {
+      "is_sprinting": true
+    },
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_data": {
+            "um_dat": {
+              "flare_runner": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

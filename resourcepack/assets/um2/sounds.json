@@ -1,0 +1,26 @@
+{
+  "item.flare_runner.use": {
+    "subtitle": "Charges with Flare Runner",
+    "sounds": [
+      "um2:item/flare_runner/use"
+    ]
+  },
+  "item.flare_runner.cancel": {
+    "subtitle": "Flare Runner cancelled",
+    "sounds": [
+      "um2:item/flare_runner/cancel"
+    ]
+  },
+  "item.flare_runner.radial_attack": {
+    "subtitle": "Flare Runner sweep",
+    "sounds": [
+      "um2:item/flare_runner/radial_attack"
+    ]
+  },
+  "item.flare_runner.charge": {
+    "subtitle": "Flare Runner sweep charges",
+    "sounds": [
+      "um2:item/flare_runner/charge"
+    ]
+  }
+}

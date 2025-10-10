@@ -1,6 +1,25 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:item/flare_runner"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
-      "model": "um2:item/flare_runner"
-    }
-  }
+      "model": "um2:item/flare_runner_in_hand"
+    },
+    "property": "minecraft:display_context"
+  },
+  "swap_animation_scale": 1.9
+}
