@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "um2:gui/negative_space"
+    },
+    {
+      "type": "directory",
+      "source": "um_entity",
+      "prefix": "entity/"
+    }
+  ]
+}
