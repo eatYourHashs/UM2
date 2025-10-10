@@ -1,0 +1,1 @@
+$damage @s $(dmg) minecraft:spear by @p[tag=um2.user]
