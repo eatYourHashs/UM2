@@ -1,3 +1,7 @@
 {
-  "item.um2.flare_runner": "Flare Runner"
+  "item.um2.flare_runner": "Flare Runner",
+  "item.um2.flare_runner.lore.1.1": "1.5x Damage",
+  "item.um2.flare_runner.lore.1.2": " when sprinting",
+  "item.um2.flare_runner.lore.2": "Hold Charge for radial slash attack",
+  "item.um2.flare_runner.lore.3": "8 Attack Damage, 1 Attack Speed"
 }

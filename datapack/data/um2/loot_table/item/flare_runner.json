@@ -8,6 +8,34 @@
           "name": "minecraft:netherite_spear",
           "functions": [
             {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.um2.flare_runner.lore.1.1",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.flare_runner.lore.1.2",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.um2.flare_runner.lore.2",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.um2.flare_runner.lore.3",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
@@ -60,7 +88,7 @@
                     "max_duration_ticks": 30
                   },
                   "dismount_conditions": {
-                    "max_duration_ticks": 30
+                    "max_duration_ticks": 8
                   },
                   "sound": "minecraft:item.spear.use",
                   "hit_sound": "minecraft:item.spear.hit"
@@ -76,7 +104,12 @@
                   "type": "stab",
                   "duration": 20
                 },
-                "!minecraft:max_damage": {}
+                "!minecraft:max_damage": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
               }
             }
           ]
