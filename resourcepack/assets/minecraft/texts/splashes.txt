@@ -449,6 +449,8 @@ Music by Amos Roddy!
 Flint and Steel!
 Chicken Jockey!
 §cUndermagic 2: Electric Boogaloo
+§cPit Lord Abs will not be forgotten!
+§cHow do I get mundane gold?
 §cAlso try Satisfactory!
 §cAlso try Balatro!
 §cAlso try Limbus Company!
@@ -483,7 +485,7 @@ Chicken Jockey!
 §cpain_and_suffering.mcfunction
 §cListen to Holst!
 §cListen to Stravinsky!
-§cOnly 2 bosses!
+§cOnly 3 bosses!
 §cSteve beats Goku!
 §cSteve is in Smash!
 §cNow with dev textures!
