@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "um2:demonic_steel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "um2:demonic_steel"
+      }
+    ]
+  }
+}

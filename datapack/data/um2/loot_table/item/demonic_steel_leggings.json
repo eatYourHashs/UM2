@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.2",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.3",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.um2.demonic_steel_armor.lore.2",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "um2:demonic_steel_leggings",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "um2:demonic_steel_leggings",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.um2.demonic_steel_leggings"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{um_dat:{demonic_steel_leggings:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "um2:demonic_steel_leggings",
+                "minecraft:rarity": "common",
+                "minecraft:max_damage": 555,
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "um2:demonic_steel"
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

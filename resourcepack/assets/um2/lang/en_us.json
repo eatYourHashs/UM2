@@ -3,5 +3,13 @@
   "item.um2.flare_runner.lore.1.1": "1.5x Damage",
   "item.um2.flare_runner.lore.1.2": " when sprinting",
   "item.um2.flare_runner.lore.2": "Hold Charge for radial slash attack",
-  "item.um2.flare_runner.lore.3": "8 Attack Damage, 1 Attack Speed"
+  "item.um2.flare_runner.lore.3": "8 Attack Damage, 1 Attack Speed",
+  "item.um2.demonic_steel_helmet": "Demonic Steel Helmet",
+  "item.um2.demonic_steel_chestplate": "Demonic Steel Chestplate",
+  "item.um2.demonic_steel_leggings": "Demonic Steel Leggings",
+  "item.um2.demonic_steel_boots": "Demonic Steel Boots",
+  "item.um2.demonic_steel_armor.lore.1.1": "Gain ",
+  "item.um2.demonic_steel_armor.lore.1.2": "absorption health",
+  "item.um2.demonic_steel_armor.lore.1.3": " after successive melee hits",
+  "item.um2.demonic_steel_armor.lore.2": "Amount of health scales with pieces equipped"
 }

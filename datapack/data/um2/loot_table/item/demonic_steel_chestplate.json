@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.2",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.3",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.um2.demonic_steel_armor.lore.2",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "um2:demonic_steel_chestplate",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "um2:demonic_steel_chestplate",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.um2.demonic_steel_chestplate"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{um_dat:{demonic_steel_chestplate:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "um2:demonic_steel_chestplate",
+                "minecraft:rarity": "common",
+                "minecraft:max_damage": 592,
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "um2:demonic_steel"
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

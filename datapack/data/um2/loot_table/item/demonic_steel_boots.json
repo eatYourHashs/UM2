@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.2",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.demonic_steel_armor.lore.1.3",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.um2.demonic_steel_armor.lore.2",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "um2:demonic_steel_boots",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "um2:demonic_steel_boots",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.um2.demonic_steel_boots"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{um_dat:{demonic_steel_boots:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "um2:demonic_steel_boots",
+                "minecraft:rarity": "common",
+                "minecraft:max_damage": 481,
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "um2:demonic_steel"
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "um2:item/demonic_steel_leggings"
+  }
+}
