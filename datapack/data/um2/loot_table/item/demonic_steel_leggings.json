@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:structure_block",
+          "name": "minecraft:copper_leggings",
           "functions": [
             {
               "function": "minecraft:set_lore",
@@ -75,7 +75,11 @@
                   "slot": "legs",
                   "asset_id": "um2:demonic_steel"
                 },
-                "minecraft:max_stack_size": 1
+                "minecraft:max_stack_size": 1,
+                "!minecraft:repairable": {},
+                "minecraft:enchantable": {
+                  "value": 14
+                }
               }
             }
           ]
