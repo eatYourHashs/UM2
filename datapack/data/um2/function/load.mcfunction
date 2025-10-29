@@ -1,12 +1,16 @@
 scoreboard objectives add um2.dummy dummy
 
-scoreboard objectives add um2.flare_runner dummy
 scoreboard objectives add um2.version dummy
+
+scoreboard objectives add um2.flare_runner dummy
+scoreboard objectives add um2.since_attack dummy
+scoreboard objectives add um2.demonic_steel_count dummy
 
 scoreboard objectives add um2.uuid dummy
 scoreboard objectives add um2.timer dummy
 
 scoreboard objectives add um2.cstick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add um2.attack minecraft.custom:minecraft.damage_dealt
 
 scoreboard players set $version um2.version 1
 

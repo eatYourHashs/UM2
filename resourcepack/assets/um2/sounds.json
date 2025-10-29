@@ -22,5 +22,11 @@
     "sounds": [
       "um2:item/flare_runner/charge"
     ]
+  },
+  "item.demonic_steel_armor.ward": {
+    "subtitle": "Ward activates",
+    "sounds": [
+      "um2:item/demonic_steel_armor/ward"
+    ]
   }
 }

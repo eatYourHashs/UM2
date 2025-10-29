@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+        "components": {
+          "minecraft:custom_data": {
+            "um_dat": {
+              "demonic_steel_leggings": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
