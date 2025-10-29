@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"2": "um2:entity/tyrion_demon"
+		"2": "um2:um_entity/tyrion_demon"
 	},
 	"elements": [
 		{
@@ -166,6 +166,10 @@
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [1.25, 0, 0]
+		},
+		"head": {
+			"translation": [0, -11, 0],
+			"scale": [1.8, 1.8, 1.8]
 		}
 	},
 	"groups": [
