@@ -5,30 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_spear",
+          "name": "minecraft:netherite_sword",
           "functions": [
             {
               "function": "minecraft:set_lore",
               "lore": [
-                [
-                  {
-                    "translate": "item.um2.flare_runner.lore.1.1",
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "translate": "item.um2.flare_runner.lore.1.2",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ],
                 {
-                  "translate": "item.um2.flare_runner.lore.2",
+                  "translate": "item.um2.dragon_lash.lore.1",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "translate": "item.um2.flare_runner.lore.3",
+                  "translate": "item.um2.dragon_lash.lore.2",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "item.um2.dragon_lash.lore.3",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -40,15 +33,15 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:attack_damage",
-                  "id": "um2:flare_runner",
-                  "amount": 7,
+                  "id": "um2:dragon_lash",
+                  "amount": 9,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:attack_speed",
-                  "id": "um2:flare_runner",
-                  "amount": -3,
+                  "id": "um2:dragon_lash",
+                  "amount": -10,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }
@@ -58,60 +51,49 @@
               "function": "minecraft:set_name",
               "target": "item_name",
               "name": {
-                "translate": "item.um2.flare_runner"
+                "translate": "item.um2.dragon_lash"
               }
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{um_dat:{flare_runner:1b}}"
+              "tag": "{um_dat:{dragon_lash:1b}}"
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "um2:flare_runner",
+                "minecraft:item_model": "um2:dragon_lash",
                 "minecraft:rarity": "uncommon",
                 "minecraft:use_effects": {
                   "can_sprint": true,
                   "speed_multiplier": 1
                 },
                 "minecraft:minimum_attack_charge": 1,
-                "minecraft:damage_type": "minecraft:spear",
                 "minecraft:kinetic_weapon": {
-                  "min_reach": 1,
-                  "max_reach": 5,
-                  "hitbox_margin": 0.25,
-                  "delay_ticks": 10,
+                  "min_reach": 0,
+                  "max_reach": 0.01,
+                  "hitbox_margin": 0,
+                  "delay_ticks": 20,
                   "damage_conditions": {
-                    "max_duration_ticks": 30
+                    "max_duration_ticks": 10
                   },
                   "knockback_conditions": {
-                    "max_duration_ticks": 30
+                    "max_duration_ticks": 10
                   },
                   "dismount_conditions": {
-                    "max_duration_ticks": 8
+                    "max_duration_ticks": 10
                   },
                   "sound": "minecraft:item.spear.use",
                   "hit_sound": "minecraft:item.spear.hit"
                 },
-                "minecraft:piercing_weapon": {
-                  "min_reach": 1,
-                  "max_reach": 5,
-                  "hitbox_margin": 0.25,
-                  "sound": "minecraft:item.spear.attack",
-                  "hit_sound": "minecraft:item.spear.hit"
-                },
-                "minecraft:swing_animation": {
-                  "type": "stab",
-                  "duration": 20
-                },
                 "!minecraft:max_damage": {},
+                "!minecraft:damage_resistant": {},
                 "minecraft:tooltip_display": {
                   "hidden_components": [
                     "minecraft:attribute_modifiers"
                   ]
                 },
                 "minecraft:enchantable": {
-                  "value": 18
+                  "value": 10
                 }
               }
             }
