@@ -41,7 +41,7 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "id": "um2:dragon_lash",
-                  "amount": -10,
+                  "amount": -3,
                   "operation": "add_value",
                   "slot": "mainhand"
                 }
@@ -63,27 +63,26 @@
               "components": {
                 "minecraft:item_model": "um2:dragon_lash",
                 "minecraft:rarity": "uncommon",
-                "minecraft:use_effects": {
-                  "can_sprint": true,
-                  "speed_multiplier": 1
-                },
                 "minecraft:minimum_attack_charge": 1,
+                "minecraft:piercing_weapon": {
+                  "min_reach": 0,
+                  "max_reach": 0,
+                  "hitbox_margin": 0
+                },
                 "minecraft:kinetic_weapon": {
                   "min_reach": 0,
-                  "max_reach": 0.01,
+                  "max_reach": 0,
                   "hitbox_margin": 0,
-                  "delay_ticks": 20,
+                  "delay_ticks": 0,
                   "damage_conditions": {
-                    "max_duration_ticks": 10
+                    "max_duration_ticks": 0
                   },
                   "knockback_conditions": {
-                    "max_duration_ticks": 10
+                    "max_duration_ticks": 30
                   },
                   "dismount_conditions": {
-                    "max_duration_ticks": 10
-                  },
-                  "sound": "minecraft:item.spear.use",
-                  "hit_sound": "minecraft:item.spear.hit"
+                    "max_duration_ticks": 0
+                  }
                 },
                 "!minecraft:max_damage": {},
                 "!minecraft:damage_resistant": {},
@@ -94,6 +93,9 @@
                 },
                 "minecraft:enchantable": {
                   "value": 10
+                },
+                "minecraft:swing_animation": {
+                  "type": "none"
                 }
               }
             }
