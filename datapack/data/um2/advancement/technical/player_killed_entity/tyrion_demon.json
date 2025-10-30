@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "kill_trader_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"um2.tyrion_demon\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "um2:entity/trader_entity/death/schedule"
+  }
+}

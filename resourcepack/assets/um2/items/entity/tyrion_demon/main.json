@@ -1,0 +1,194 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "um2:entity/tyrion_demon/body/normal"
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "um2:entity/tyrion_demon/body/hurt"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "um2:entity/tyrion_demon/legs/static/normal"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "um2:entity/tyrion_demon/legs/static/hurt"
+          }
+        },
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_false": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-4/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-3/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-2/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-1/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/0/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/1/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/2/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/3/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/4/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-4/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-3/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-2/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-1/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/0/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/1/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/2/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/3/normal"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/4/normal"
+              }
+            ]
+          },
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-4/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-3/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-2/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/-1/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/0/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/1/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/2/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/3/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/left/4/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-4/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-3/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-2/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/-1/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/0/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/1/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/2/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/3/hurt"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "um2:entity/tyrion_demon/legs/right/4/hurt"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
