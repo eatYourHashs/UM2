@@ -1,0 +1,1 @@
+$damage @s $(dmg) minecraft:player_attack by @p[tag=um2.user]

@@ -1,4 +1,5 @@
 scoreboard objectives add um2.dummy dummy
+scoreboard objectives add um2.dummy2 dummy
 
 scoreboard objectives add um2.version dummy
 

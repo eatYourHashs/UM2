@@ -24,9 +24,27 @@
     ]
   },
   "item.demonic_steel_armor.ward": {
-    "subtitle": "Ward activates",
+    "subtitle": "Demonic Steel ward activates",
     "sounds": [
       "um2:item/demonic_steel_armor/ward"
+    ]
+  },
+  "item.flail.charge": {
+    "subtitle": "Flail charges",
+    "sounds": [
+      "um2:item/flail/charge"
+    ]
+  },
+  "item.flail.dragon_lash.throw": {
+    "subtitle": "Dragon Lash thrown",
+    "sounds": [
+      "um2:item/flail/dragon_lash/throw"
+    ]
+  },
+  "item.flail.dragon_lash.hit": {
+    "subtitle": "Dragon Lash hits",
+    "sounds": [
+      "um2:item/flail/dragon_lash/hit"
     ]
   }
 }

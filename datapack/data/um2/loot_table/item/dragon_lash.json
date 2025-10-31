@@ -64,6 +64,10 @@
                 "minecraft:item_model": "um2:dragon_lash",
                 "minecraft:rarity": "uncommon",
                 "minecraft:minimum_attack_charge": 1,
+                "minecraft:use_effects": {
+                  "can_sprint": false,
+                  "speed_multiplier": 0.5
+                },
                 "minecraft:piercing_weapon": {
                   "min_reach": 0,
                   "max_reach": 0,
