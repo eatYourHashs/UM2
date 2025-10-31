@@ -41,7 +41,7 @@
                 {
                   "attribute": "minecraft:armor",
                   "id": "um2:demonic_steel_boots",
-                  "amount": 3,
+                  "amount": 2,
                   "operation": "add_value",
                   "slot": "feet"
                 },
