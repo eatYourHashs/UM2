@@ -82,7 +82,7 @@
                     "max_duration_ticks": 0
                   },
                   "knockback_conditions": {
-                    "max_duration_ticks": 30
+                    "max_duration_ticks": 24
                   },
                   "dismount_conditions": {
                     "max_duration_ticks": 0
