@@ -1,0 +1,2 @@
+execute store result storage um2:storage temp.dmg double 0.1 run scoreboard players get @s um2.dummy2
+execute positioned ~-2.5 ~-1 ~-2.5 as @e[dx=5,dy=2,dz=5,tag=!um2.user,type=!#um2:projectile_ignore] at @s run function um2:item/dragons_wrath/ult/damage with storage um2:storage temp

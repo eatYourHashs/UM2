@@ -1,0 +1,6 @@
+{
+  "parent": "um2:item/dragons_wrath/pulling_0",
+  "textures": {
+    "layer0": "um2:item/dragons_wrath/pulling_3"
+  }
+}

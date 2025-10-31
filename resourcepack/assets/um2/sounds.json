@@ -46,5 +46,29 @@
     "sounds": [
       "um2:item/flail/dragon_lash/hit"
     ]
+  },
+  "item.dragons_wrath.charge": {
+    "subtitle": "Dragon's Wrath charges",
+    "sounds": [
+      "um2:item/dragons_wrath/charge"
+    ]
+  },
+  "item.dragons_wrath.full_charge": {
+    "subtitle": "Dragon's Wrath fully charges",
+    "sounds": [
+      "um2:item/dragons_wrath/full_charge"
+    ]
+  },
+  "item.dragons_wrath.unleash_charge": {
+    "subtitle": "Dragon's Wrath unleashes",
+    "sounds": [
+      "um2:item/dragons_wrath/unleash_charge"
+    ]
+  },
+  "item.dragons_wrath.explode": {
+    "subtitle": "Dragon's Wrath arrow bursts",
+    "sounds": [
+      "um2:item/dragons_wrath/explode"
+    ]
   }
 }

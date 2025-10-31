@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "um2:item/dragons_wrath/pulling_0"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "entries": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:item/dragons_wrath/pulling_2"
+          },
+          "threshold": 0.9
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:item/dragons_wrath/pulling_3"
+          },
+          "threshold": 2.25
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "um2:item/dragons_wrath/pulling_1"
+      },
+      "property": "minecraft:use_duration",
+      "scale": 0.05
+    },
+    "property": "minecraft:using_item"
+  }
+}

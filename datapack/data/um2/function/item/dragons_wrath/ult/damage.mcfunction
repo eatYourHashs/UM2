@@ -1,0 +1,1 @@
+$damage @s $(dmg) minecraft:arrow by @p[tag=um2.user]
