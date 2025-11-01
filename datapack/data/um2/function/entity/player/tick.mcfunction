@@ -9,5 +9,7 @@ execute if score @s um2.dragon_lash matches 1.. unless entity @s[tag=um2.using_d
 execute if score @s um2.dragon_lash matches 1.. run tag @s remove um2.using_dragon_lash
 execute if score @s um2.dragons_wrath matches 1.. unless entity @s[tag=um2.using_dragons_wrath] run function um2:item/dragons_wrath/stop_using
 execute if score @s um2.dragons_wrath matches 1.. run tag @s remove um2.using_dragons_wrath
+execute if score @s um2.demonic_reinforced_bow matches 1.. unless entity @s[tag=um2.using_demonic_reinforced_bow] run function um2:item/demonic_reinforced_bow/stop_using
+execute if score @s um2.demonic_reinforced_bow matches 1.. run tag @s remove um2.using_demonic_reinforced_bow
 execute unless entity @s[tag=um2.flare_runner_sprint] if predicate um2:item/flare_runner_sprint run function um2:item/flare_runner/sprint
 execute if entity @s[tag=um2.flare_runner_sprint] unless predicate um2:item/flare_runner_sprint run function um2:item/flare_runner/end_sprint

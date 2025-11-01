@@ -22,11 +22,18 @@
                     "italic": false
                   }
                 ],
-                {
-                  "translate": "item.um2.flare_runner.lore.2",
-                  "color": "gray",
-                  "italic": false
-                },
+                [
+                  {
+                    "translate": "item.um2.flare_runner.lore.2.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.flare_runner.lore.2.2",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ],
                 {
                   "translate": "item.um2.flare_runner.lore.3",
                   "color": "dark_green",
@@ -69,7 +76,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:flare_runner",
-                "minecraft:rarity": "uncommon",
+                "minecraft:rarity": "rare",
                 "minecraft:use_effects": {
                   "can_sprint": true,
                   "speed_multiplier": 0.5

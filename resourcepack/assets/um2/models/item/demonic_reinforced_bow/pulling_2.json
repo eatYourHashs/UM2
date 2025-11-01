@@ -1,0 +1,6 @@
+{
+  "parent": "um2:item/demonic_reinforced_bow/pulling_0",
+  "textures": {
+    "layer0": "um2:item/demonic_reinforced_bow/pulling_2"
+  }
+}

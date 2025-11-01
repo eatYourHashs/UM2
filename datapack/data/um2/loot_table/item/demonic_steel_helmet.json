@@ -18,7 +18,7 @@
                   },
                   {
                     "translate": "item.um2.demonic_steel_armor.lore.1.2",
-                    "color": "gold",
+                    "color": "yellow",
                     "italic": false
                   },
                   {
@@ -41,7 +41,7 @@
                 {
                   "attribute": "minecraft:armor",
                   "id": "um2:demonic_steel_helmet",
-                  "amount": 3,
+                  "amount": 2,
                   "operation": "add_value",
                   "slot": "head"
                 },

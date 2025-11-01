@@ -6,6 +6,7 @@ scoreboard objectives add um2.version dummy
 scoreboard objectives add um2.flare_runner dummy
 scoreboard objectives add um2.dragon_lash dummy
 scoreboard objectives add um2.dragons_wrath dummy
+scoreboard objectives add um2.demonic_reinforced_bow dummy
 scoreboard objectives add um2.since_attack dummy
 scoreboard objectives add um2.demonic_steel_count dummy
 

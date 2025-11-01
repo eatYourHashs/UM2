@@ -16,6 +16,10 @@
     {
       "condition": "minecraft:reference",
       "name": "um2:item/demonic_steel_armor/boots"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "um2:item/demonic_steel_armor/longsword"
     }
   ]
 }

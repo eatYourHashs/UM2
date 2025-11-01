@@ -12,30 +12,18 @@
               "lore": [
                 [
                   {
-                    "translate": "item.um2.dragons_wrath.lore.1.1",
+                    "translate": "item.um2.demonic_reinforced_bow.lore.1.1",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "translate": "item.um2.dragons_wrath.lore.1.2",
-                    "color": "gold",
+                    "translate": "item.um2.demonic_reinforced_bow.lore.1.2",
+                    "color": "blue",
                     "italic": false
                   },
                   {
-                    "translate": "item.um2.dragons_wrath.lore.1.3",
+                    "translate": "item.um2.demonic_reinforced_bow.lore.1.3",
                     "color": "gray",
-                    "italic": false
-                  }
-                ],
-                [
-                  {
-                    "translate": "item.um2.dragons_wrath.lore.2.1",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "item.um2.dragons_wrath.lore.2.2",
-                    "color": "light_purple",
                     "italic": false
                   }
                 ]
@@ -46,21 +34,21 @@
               "function": "minecraft:set_name",
               "target": "item_name",
               "name": {
-                "translate": "item.um2.dragons_wrath"
+                "translate": "item.um2.demonic_reinforced_bow"
               }
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{um_dat:{dragons_wrath:1b}}"
+              "tag": "{um_dat:{demonic_reinforced_bow:1b}}"
             },
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "um2:dragons_wrath",
-                "minecraft:rarity": "uncommon",
-                "!minecraft:max_damage": {},
+                "minecraft:item_model": "um2:demonic_reinforced_bow",
+                "minecraft:rarity": "common",
+                "minecraft:max_damage": 666,
                 "minecraft:enchantable": {
-                  "value": 10
+                  "value": 14
                 }
               }
             }

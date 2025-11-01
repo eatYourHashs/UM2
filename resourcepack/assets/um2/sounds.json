@@ -70,5 +70,17 @@
     "sounds": [
       "um2:item/dragons_wrath/explode"
     ]
+  },
+  "item.demonic_reinforced_bow.charge": {
+    "subtitle": "Perfect charge cue",
+    "sounds": [
+      "um2:item/demonic_reinforced_bow/charge"
+    ]
+  },
+  "item.demonic_reinforced_bow.perfect_shot": {
+    "subtitle": "Perfect shot fired",
+    "sounds": [
+      "um2:item/demonic_reinforced_bow/perfect_shot"
+    ]
   }
 }
