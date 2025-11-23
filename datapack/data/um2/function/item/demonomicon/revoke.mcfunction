@@ -1,0 +1,1 @@
+advancement revoke @a only um2:technical/using_demonomicon

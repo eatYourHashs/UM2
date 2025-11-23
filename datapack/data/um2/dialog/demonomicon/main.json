@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "translate": "dialog.um2.demonomicon"
+  },
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": {
+      "translate": "dialog.um2.close"
+    }
+  },
+  "columns": 10,
+  "button_width": 20,
+  "dialogs": [
+    "um2:demonomicon/demonic_steel_longsword",
+    "um2:demonomicon/demonic_steel_armor",
+    "um2:demonomicon/demonic_reinforced_bow"
+  ]
+}

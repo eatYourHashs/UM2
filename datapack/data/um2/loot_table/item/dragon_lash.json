@@ -68,15 +68,7 @@
                   "can_sprint": false,
                   "speed_multiplier": 0.5
                 },
-                "minecraft:piercing_weapon": {
-                  "min_reach": 0,
-                  "max_reach": 0,
-                  "hitbox_margin": 0
-                },
                 "minecraft:kinetic_weapon": {
-                  "min_reach": 0,
-                  "max_reach": 0,
-                  "hitbox_margin": 0,
                   "delay_ticks": 0,
                   "damage_conditions": {
                     "max_duration_ticks": 0
@@ -87,6 +79,11 @@
                   "dismount_conditions": {
                     "max_duration_ticks": 0
                   }
+                },
+                "minecraft:attack_range": {
+                  "min_reach": 0,
+                  "max_reach": 0,
+                  "hitbox_margin": 0
                 },
                 "!minecraft:max_damage": {},
                 "!minecraft:damage_resistant": {},

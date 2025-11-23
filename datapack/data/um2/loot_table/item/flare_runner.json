@@ -84,9 +84,6 @@
                 "minecraft:minimum_attack_charge": 1,
                 "minecraft:damage_type": "minecraft:spear",
                 "minecraft:kinetic_weapon": {
-                  "min_reach": 1,
-                  "max_reach": 5,
-                  "hitbox_margin": 0.25,
                   "delay_ticks": 10,
                   "damage_conditions": {
                     "max_duration_ticks": 30
@@ -101,11 +98,13 @@
                   "hit_sound": "minecraft:item.spear.hit"
                 },
                 "minecraft:piercing_weapon": {
-                  "min_reach": 1,
-                  "max_reach": 5,
-                  "hitbox_margin": 0.25,
                   "sound": "minecraft:item.spear.attack",
                   "hit_sound": "minecraft:item.spear.hit"
+                },
+                "minecraft:attack_range": {
+                  "min_reach": 1,
+                  "max_reach": 5,
+                  "hitbox_margin": 0.25
                 },
                 "minecraft:swing_animation": {
                   "type": "stab",

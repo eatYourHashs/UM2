@@ -1,0 +1,243 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "item.um2.demonic_steel_armor"
+  },
+  "external_title": {
+    "sprite": "um2:item/demonic_steel_helmet",
+    "shadow_color": 0
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:copper_helmet",
+        "components": {
+          "minecraft:item_model": "um2:demonic_steel_helmet",
+          "minecraft:lore": [
+            [
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.1",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.2",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.3",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            {
+              "translate": "item.um2.demonic_steel_armor.lore.2",
+              "color": "gray",
+              "italic": false
+            }
+          ],
+          "minecraft:rarity": "common",
+          "minecraft:item_name": {
+            "translate": "item.um2.demonic_steel_helmet"
+          },
+          "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "um2:demonic_steel_helmet",
+              "amount": 2,
+              "operation": "add_value",
+              "slot": "head"
+            },
+            {
+              "type": "minecraft:armor_toughness",
+              "id": "um2:demonic_steel_helmet",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "head"
+            }
+          ]
+        }
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:copper_chestplate",
+        "components": {
+          "minecraft:item_model": "um2:demonic_steel_chestplate",
+          "minecraft:lore": [
+            [
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.1",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.2",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.3",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            {
+              "translate": "item.um2.demonic_steel_armor.lore.2",
+              "color": "gray",
+              "italic": false
+            }
+          ],
+          "minecraft:rarity": "common",
+          "minecraft:item_name": {
+            "translate": "item.um2.demonic_steel_chestplate"
+          },
+          "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "um2:demonic_steel_chestplate",
+              "amount": 7,
+              "operation": "add_value",
+              "slot": "chest"
+            },
+            {
+              "type": "minecraft:armor_toughness",
+              "id": "um2:demonic_steel_chestplate",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "chest"
+            }
+          ]
+        }
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:copper_leggings",
+        "components": {
+          "minecraft:item_model": "um2:demonic_steel_leggings",
+          "minecraft:lore": [
+            [
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.1",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.2",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.3",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            {
+              "translate": "item.um2.demonic_steel_armor.lore.2",
+              "color": "gray",
+              "italic": false
+            }
+          ],
+          "minecraft:rarity": "common",
+          "minecraft:item_name": {
+            "translate": "item.um2.demonic_steel_leggings"
+          },
+          "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "um2:demonic_steel_leggings",
+              "amount": 5,
+              "operation": "add_value",
+              "slot": "legs"
+            },
+            {
+              "type": "minecraft:armor_toughness",
+              "id": "um2:demonic_steel_leggings",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "legs"
+            }
+          ]
+        }
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:copper_boots",
+        "components": {
+          "minecraft:item_model": "um2:demonic_steel_boots",
+          "minecraft:lore": [
+            [
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.1",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.2",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_armor.lore.1.3",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            {
+              "translate": "item.um2.demonic_steel_armor.lore.2",
+              "color": "gray",
+              "italic": false
+            }
+          ],
+          "minecraft:rarity": "common",
+          "minecraft:item_name": {
+            "translate": "item.um2.demonic_steel_boots"
+          },
+          "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "um2:demonic_steel_boots",
+              "amount": 2,
+              "operation": "add_value",
+              "slot": "feet"
+            },
+            {
+              "type": "minecraft:armor_toughness",
+              "id": "um2:demonic_steel_boots",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "feet"
+            }
+          ]
+        }
+      },
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "action": {
+    "label": {
+      "translate": "dialog.um2.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "um2:demonomicon/main"
+    }
+  }
+}

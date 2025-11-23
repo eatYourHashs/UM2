@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "item.um2.demonic_steel_longsword"
+  },
+  "external_title": {
+    "sprite": "um2:item/demonic_steel_longsword",
+    "shadow_color": 0
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:netherite_sword",
+        "components": {
+          "minecraft:item_model": "um2:demonic_steel_longsword",
+          "minecraft:lore": [
+            [
+              {
+                "translate": "item.um2.demonic_steel_longsword.lore.1.1",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_longsword.lore.1.2",
+                "color": "yellow",
+                "italic": false
+              },
+              {
+                "translate": "item.um2.demonic_steel_longsword.lore.1.3",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            {
+              "translate": "item.um2.demonic_steel_longsword.lore.2",
+              "color": "dark_green",
+              "italic": false
+            }
+          ],
+          "minecraft:tooltip_display": {
+            "hidden_components": [
+              "minecraft:attribute_modifiers"
+            ]
+          },
+          "minecraft:rarity": "common",
+          "minecraft:item_name": {
+            "translate": "item.um2.demonic_steel_longsword"
+          }
+        }
+      },
+      "description": {
+        "translate": "dialog.um2.demonic_steel_longsword"
+      },
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "action": {
+    "label": {
+      "translate": "dialog.um2.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "um2:demonomicon/main"
+    }
+  }
+}
