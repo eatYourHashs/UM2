@@ -80,6 +80,11 @@
                   "hidden_components": [
                     "minecraft:attribute_modifiers"
                   ]
+                },
+                "minecraft:attack_range": {
+                  "min_reach": 0,
+                  "max_reach": 3.5,
+                  "hitbox_margin": 0
                 }
               }
             }
