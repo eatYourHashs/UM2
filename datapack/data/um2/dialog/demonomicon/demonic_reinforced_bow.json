@@ -4,6 +4,7 @@
     "translate": "item.um2.demonic_reinforced_bow"
   },
   "external_title": {
+    "atlas": "minecraft:items",
     "sprite": "um2:item/demonic_reinforced_bow/pulling_0",
     "shadow_color": 0
   },
