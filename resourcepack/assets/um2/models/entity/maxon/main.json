@@ -4,9 +4,9 @@
 	"ambientocclusion": false,
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "um2:item/flare_runner_in_hand",
+		"1": "um2:um_entity/maxon/flare_runner_in_hand",
 		"2": "um2:um_entity/maxon/main",
-		"particle": "um2:item/flare_runner_in_hand"
+		"particle": "um2:um_entity/maxon/flare_runner_in_hand"
 	},
 	"elements": [
 		{
