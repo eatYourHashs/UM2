@@ -9,8 +9,6 @@
 		"5": "um2:um_entity/tyrion_demon/legs_hurt/-2",
 		"6": "um2:um_entity/tyrion_demon/legs_hurt/3",
 		"7": "um2:um_entity/tyrion_demon/legs_hurt/-3",
-		"8": "um2:um_entity/tyrion_demon/legs_hurt/4",
-		"9": "um2:um_entity/tyrion_demon/legs_hurt/-4",
 		"particle": "um2:um_entity/tyrion_demon/legs_hurt/1"
 	},
 	"elements": [
@@ -43,7 +41,7 @@
 		{
 			"from": [8, -11, 9],
 			"to": [12, 1, 13],
-			"rotation": {"angle": 10, "axis": "x", "origin": [10, 1, 11]},
+			"rotation": {"angle": 15, "axis": "x", "origin": [10, 1, 11]},
 			"faces": {
 				"north": {"uv": [12, 0, 16, 12], "rotation": 180, "texture": "#4"},
 				"east": {"uv": [8, 0, 12, 12], "rotation": 180, "texture": "#4"},
@@ -69,32 +67,6 @@
 		{
 			"from": [8, -11, 9],
 			"to": [12, 1, 13],
-			"rotation": {"angle": 25, "axis": "x", "origin": [10, 1, 11]},
-			"faces": {
-				"north": {"uv": [12, 0, 16, 12], "rotation": 180, "texture": "#8"},
-				"east": {"uv": [8, 0, 12, 12], "rotation": 180, "texture": "#8"},
-				"south": {"uv": [4, 0, 8, 12], "texture": "#8"},
-				"west": {"uv": [0, 0, 4, 12], "texture": "#8"},
-				"up": {"uv": [0, 12, 4, 16], "texture": "#8"},
-				"down": {"uv": [4, 12, 8, 16], "rotation": 180, "texture": "#8"}
-			}
-		},
-		{
-			"from": [8, -11, 9],
-			"to": [12, 1, 13],
-			"rotation": {"angle": -25, "axis": "x", "origin": [10, 1, 11]},
-			"faces": {
-				"north": {"uv": [12, 0, 16, 12], "rotation": 180, "texture": "#9"},
-				"east": {"uv": [8, 0, 12, 12], "rotation": 180, "texture": "#9"},
-				"south": {"uv": [4, 0, 8, 12], "texture": "#9"},
-				"west": {"uv": [0, 0, 4, 12], "texture": "#9"},
-				"up": {"uv": [0, 12, 4, 16], "texture": "#9"},
-				"down": {"uv": [4, 12, 8, 16], "rotation": 180, "texture": "#9"}
-			}
-		},
-		{
-			"from": [8, -11, 9],
-			"to": [12, 1, 13],
 			"rotation": {"angle": -20, "axis": "x", "origin": [10, 1, 11]},
 			"faces": {
 				"north": {"uv": [12, 0, 16, 12], "rotation": 180, "texture": "#7"},
@@ -108,7 +80,7 @@
 		{
 			"from": [8, -11, 9],
 			"to": [12, 1, 13],
-			"rotation": {"angle": -10, "axis": "x", "origin": [10, 1, 11]},
+			"rotation": {"angle": -15, "axis": "x", "origin": [10, 1, 11]},
 			"faces": {
 				"north": {"uv": [12, 0, 16, 12], "rotation": 180, "texture": "#5"},
 				"east": {"uv": [8, 0, 12, 12], "rotation": 180, "texture": "#5"},
@@ -160,7 +132,7 @@
 		{
 			"from": [4, -11, 9],
 			"to": [8, 1, 13],
-			"rotation": {"angle": 10, "axis": "x", "origin": [6, 1, 11]},
+			"rotation": {"angle": 15, "axis": "x", "origin": [6, 1, 11]},
 			"faces": {
 				"north": {"uv": [16, 0, 12, 12], "rotation": 180, "texture": "#5"},
 				"east": {"uv": [4, 0, 0, 12], "texture": "#5"},
@@ -186,32 +158,6 @@
 		{
 			"from": [4, -11, 9],
 			"to": [8, 1, 13],
-			"rotation": {"angle": 25, "axis": "x", "origin": [6, 1, 11]},
-			"faces": {
-				"north": {"uv": [16, 0, 12, 12], "rotation": 180, "texture": "#9"},
-				"east": {"uv": [4, 0, 0, 12], "texture": "#9"},
-				"south": {"uv": [8, 0, 4, 12], "texture": "#9"},
-				"west": {"uv": [12, 0, 8, 12], "rotation": 180, "texture": "#9"},
-				"up": {"uv": [4, 12, 0, 16], "texture": "#9"},
-				"down": {"uv": [8, 12, 4, 16], "rotation": 180, "texture": "#9"}
-			}
-		},
-		{
-			"from": [4, -11, 9],
-			"to": [8, 1, 13],
-			"rotation": {"angle": -25, "axis": "x", "origin": [6, 1, 11]},
-			"faces": {
-				"north": {"uv": [16, 0, 12, 12], "rotation": 180, "texture": "#8"},
-				"east": {"uv": [4, 0, 0, 12], "texture": "#8"},
-				"south": {"uv": [8, 0, 4, 12], "texture": "#8"},
-				"west": {"uv": [12, 0, 8, 12], "rotation": 180, "texture": "#8"},
-				"up": {"uv": [4, 12, 0, 16], "texture": "#8"},
-				"down": {"uv": [8, 12, 4, 16], "rotation": 180, "texture": "#8"}
-			}
-		},
-		{
-			"from": [4, -11, 9],
-			"to": [8, 1, 13],
 			"rotation": {"angle": -20, "axis": "x", "origin": [6, 1, 11]},
 			"faces": {
 				"north": {"uv": [16, 0, 12, 12], "rotation": 180, "texture": "#6"},
@@ -225,7 +171,7 @@
 		{
 			"from": [4, -11, 9],
 			"to": [8, 1, 13],
-			"rotation": {"angle": -10, "axis": "x", "origin": [6, 1, 11]},
+			"rotation": {"angle": -15, "axis": "x", "origin": [6, 1, 11]},
 			"faces": {
 				"north": {"uv": [16, 0, 12, 12], "rotation": 180, "texture": "#4"},
 				"east": {"uv": [4, 0, 0, 12], "texture": "#4"},
@@ -263,13 +209,13 @@
 			"name": "left_leg",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+			"children": [0, 1, 2, 3, 4, 5, 6]
 		},
 		{
 			"name": "left_leg",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [9, 10, 11, 12, 13, 14, 15, 16, 17]
+			"children": [7, 8, 9, 10, 11, 12, 13]
 		}
 	]
 }
