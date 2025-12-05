@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+          "type": "minecraft:model",
+          "model": "um2:entity/tyrion_demon/body/normal"
+        },
+      {
+          "type": "minecraft:model",
+          "model": "um2:entity/tyrion_demon/legs/normal"
+        }
+    ]
+  }
+}

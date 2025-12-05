@@ -6,8 +6,8 @@
     },
     {
       "type": "directory",
-      "source": "um2_entity",
-      "prefix": "entity/"
+      "source": "um_entity",
+      "prefix": "um_entity/"
     },
     {
       "type": "directory",
