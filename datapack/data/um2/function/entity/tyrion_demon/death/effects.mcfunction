@@ -5,4 +5,5 @@ particle minecraft:poof ~ ~1 ~ 0.2 0.5 0.2 0 20 normal
 summon minecraft:experience_orb ~ ~ ~ {Value:3s}
 summon minecraft:experience_orb ~ ~ ~ {Value:2s}
 # put sounds here
+kill @n[type=item_display,tag=um2.tyrion_demon_model]
 kill @s

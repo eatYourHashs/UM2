@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "um2:entity/trader_entity/death/schedule"
+    "function": "um2:entity/tyrion_demon/death/schedule"
   }
 }

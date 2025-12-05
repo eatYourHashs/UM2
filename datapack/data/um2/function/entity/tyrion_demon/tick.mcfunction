@@ -8,4 +8,4 @@ execute if predicate um2:entity/walking_anim run item modify entity @n[tag=um2.t
 execute store result score $temp um2.dummy run data get entity @s HurtTime
 execute unless score $temp um2.dummy matches 0 run return run function um2:entity/tyrion_demon/hurt
 
-item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","values":[false]}}
+#item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","values":[false]}}
