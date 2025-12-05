@@ -1,86 +1,115 @@
 {
   "item.flare_runner.use": {
-    "subtitle": "Charges with Flare Runner",
+    "subtitle": "subtitle.um2.item.flare_runner.use",
     "sounds": [
       "um2:item/flare_runner/use"
     ]
   },
   "item.flare_runner.cancel": {
-    "subtitle": "Flare Runner cancelled",
+    "subtitle": "subtitle.um2.item.flare_runner.cancel",
     "sounds": [
       "um2:item/flare_runner/cancel"
     ]
   },
   "item.flare_runner.radial_attack": {
-    "subtitle": "Flare Runner sweep",
+    "subtitle": "subtitle.um2.item.flare_runner.radial_attack",
     "sounds": [
       "um2:item/flare_runner/radial_attack"
     ]
   },
   "item.flare_runner.charge": {
-    "subtitle": "Flare Runner sweep charges",
+    "subtitle": "subtitle.um2.item.flare_runner.charge",
     "sounds": [
       "um2:item/flare_runner/charge"
     ]
   },
   "item.demonic_steel_armor.ward": {
-    "subtitle": "Demonic Steel ward activates",
+    "subtitle": "subtitle.um2.item.demonic_steel_armor.ward",
     "sounds": [
       "um2:item/demonic_steel_armor/ward"
     ]
   },
   "item.flail.charge": {
-    "subtitle": "Flail charges",
+    "subtitle": "subtitle.um2.item.flail.charge",
     "sounds": [
       "um2:item/flail/charge"
     ]
   },
   "item.flail.dragon_lash.throw": {
-    "subtitle": "Dragon Lash thrown",
+    "subtitle": "subtitle.um2.item.flail.dragon_lash.throw",
     "sounds": [
       "um2:item/flail/dragon_lash/throw"
     ]
   },
   "item.flail.dragon_lash.hit": {
-    "subtitle": "Dragon Lash hits",
+    "subtitle": "subtitle.um2.item.flail.dragon_lash.hit",
     "sounds": [
       "um2:item/flail/dragon_lash/hit"
     ]
   },
   "item.dragons_wrath.charge": {
-    "subtitle": "Dragon's Wrath charges",
+    "subtitle": "subtitle.um2.item.dragons_wrath.charge",
     "sounds": [
       "um2:item/dragons_wrath/charge"
     ]
   },
   "item.dragons_wrath.full_charge": {
-    "subtitle": "Dragon's Wrath fully charges",
+    "subtitle": "subtitle.um2.item.dragons_wrath.full_charge",
     "sounds": [
       "um2:item/dragons_wrath/full_charge"
     ]
   },
   "item.dragons_wrath.unleash_charge": {
-    "subtitle": "Dragon's Wrath unleashes",
+    "subtitle": "subtitle.um2.item.dragons_wrath.unleash_charge",
     "sounds": [
       "um2:item/dragons_wrath/unleash_charge"
     ]
   },
   "item.dragons_wrath.explode": {
-    "subtitle": "Dragon's Wrath arrow bursts",
+    "subtitle": "subtitle.um2.item.dragons_wrath.explode",
     "sounds": [
       "um2:item/dragons_wrath/explode"
     ]
   },
   "item.demonic_reinforced_bow.charge": {
-    "subtitle": "Perfect charge cue",
+    "subtitle": "subtitle.um2.item.demonic_reinforced_bow.charge",
     "sounds": [
       "um2:item/demonic_reinforced_bow/charge"
     ]
   },
   "item.demonic_reinforced_bow.perfect_shot": {
-    "subtitle": "Perfect shot fired",
+    "subtitle": "subtitle.um2.item.demonic_reinforced_bow.perfect_shot",
     "sounds": [
       "um2:item/demonic_reinforced_bow/perfect_shot"
+    ]
+  },
+  "entity.tyrion_demon.hurt": {
+    "subtitle": "subtitle.um2.entity.tyrion_demon.hurt",
+    "sounds": [
+      {
+        "name": "um2:entity/tyrion_demon/hurt",
+        "pitch": 0.9
+      },
+      {
+        "name": "um2:entity/tyrion_demon/hurt",
+        "pitch": 1
+      },
+      {
+        "name": "um2:entity/tyrion_demon/hurt",
+        "pitch": 1.1
+      }
+    ]
+  },
+  "entity.tyrion_demon.death": {
+    "subtitle": "subtitle.um2.entity.tyrion_demon.death",
+    "sounds": [
+      "um2:entity/tyrion_demon/death"
+    ]
+  },
+  "entity.tyrion_demon.roar": {
+    "subtitle": "subtitle.um2.entity.tyrion_demon.roar",
+    "sounds": [
+      "um2:entity/tyrion_demon/roar"
     ]
   }
 }
