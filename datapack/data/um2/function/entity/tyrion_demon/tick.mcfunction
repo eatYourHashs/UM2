@@ -1,7 +1,7 @@
 # custom_model_data.flags[0] = hurt
 # custom_model_data.flags[1] = moving
 
-tp @n[tag=um2.tyrion_demon_model] ~ ~ ~ 0 ~
+tp @n[tag=um2.tyrion_demon_model] ~ ~ ~ ~ 0
 item replace entity @n[tag=um2.tyrion_demon_model] container.0 from entity @s armor.chest
 execute if predicate um2:entity/walking_anim run item modify entity @n[tag=um2.tyrion_demon_model] container.0 {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","offset":1,"values":[true]}}
 
