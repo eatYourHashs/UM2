@@ -1,0 +1,59 @@
+{
+  "fallback": "um2:demonic_keep/broken_bridge",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/bridge_down",
+        "processors": []
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/intersection",
+        "processors": []
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/centurion_intersection",
+        "processors": []
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/side_tower",
+        "processors": []
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/balcony",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/bridge",
+        "processors": []
+      }
+    }
+  ]
+}

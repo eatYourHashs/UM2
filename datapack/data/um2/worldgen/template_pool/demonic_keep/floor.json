@@ -1,0 +1,32 @@
+{
+  "fallback": "um2:demonic_keep/ground_floor",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/ground_floor",
+        "processors": []
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/prison_floor",
+        "processors": []
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/floor",
+        "processors": []
+      }
+    }
+  ]
+}

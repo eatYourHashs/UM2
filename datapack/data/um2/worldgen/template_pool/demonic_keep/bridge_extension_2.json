@@ -1,0 +1,41 @@
+{
+  "fallback": "um2:demonic_keep/intersection_wall",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/bridge_down",
+        "processors": []
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/intersection_wall",
+        "processors": []
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/broken_bridge",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "um2:demonic_keep/bridge",
+        "processors": []
+      }
+    }
+  ]
+}

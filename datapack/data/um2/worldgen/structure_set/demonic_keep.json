@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 4,
+    "spacing": 22,
+    "salt": 5474
+  },
+  "structures": [
+    {
+      "structure": "um2:demonic_keep",
+      "weight": 2
+    }
+  ]
+}
