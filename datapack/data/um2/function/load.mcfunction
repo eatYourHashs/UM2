@@ -19,6 +19,10 @@ scoreboard objectives add um2.attack minecraft.custom:minecraft.damage_dealt
 
 scoreboard players set $version um2.version 1
 
+bossbar add um2:maxon "Demon General Maxon"
+bossbar set um2:maxon color red
+bossbar set um2:maxon max 300
+
 scoreboard players set $cons.-100 um2.dummy -100
 scoreboard players set $cons.-25 um2.dummy -25
 scoreboard players set $cons.-10 um2.dummy -10
