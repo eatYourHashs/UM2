@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.um2.demonic_steel_ingot"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{um_dat:{demonic_steel_ingot:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "um2:demonic_steel_ingot",
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
