@@ -1,4 +1,4 @@
-item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":[]}}
+item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["main"]}}
 
 tag @s remove um2.jab
 tag @s remove um2.sweep
