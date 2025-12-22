@@ -4,7 +4,9 @@
 execute unless entity @p[distance=..40,gamemode=!spectator] run effect give @s resistance 1 4 true
 
 scoreboard players add @s um2.dummy 1
+scoreboard players add @s um2.dummy2 1
 execute unless entity @s[tag=um2.attacking] if entity @p[distance=..40,gamemode=!spectator,gamemode=!creative] run function um2:entity/maxon/choose_attack
+execute if score @s um2.dummy2 matches 7 run data modify entity @n[tag=um2.maxon_model] teleport_duration set value 2
 
 execute if entity @s[tag=um2.jab] run function um2:entity/maxon/jab/tick
 execute if entity @s[tag=um2.sweep] run function um2:entity/maxon/sweep/tick
