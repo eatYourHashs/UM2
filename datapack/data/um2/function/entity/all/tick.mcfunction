@@ -5,3 +5,4 @@ execute if entity @s[tag=um2.dragons_wrath_arrow] run function um2:item/dragons_
 execute if entity @s[tag=um2.demonic_reinforced_arrow] run function um2:item/demonic_reinforced_bow/perfect_arrow_tick
 execute if entity @s[tag=um2.tyrion_demon] run function um2:entity/tyrion_demon/tick
 execute if entity @s[tag=um2.maxon] run function um2:entity/maxon/tick
+execute if entity @s[tag=um2.maxon_sweep] run function um2:entity/maxon/sweep/effect/tick
