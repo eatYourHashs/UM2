@@ -12,6 +12,7 @@ scoreboard objectives add um2.demonic_steel_count dummy
 
 scoreboard objectives add um2.uuid dummy
 scoreboard objectives add um2.timer dummy
+scoreboard objectives add um2.diff dummy
 
 scoreboard objectives add um2.cstick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add um2.bow minecraft.used:minecraft.bow
