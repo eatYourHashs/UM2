@@ -1,1 +1,1 @@
-execute if entity @p[distance=..8,gamemode=!creative,gamemode=!spectator] run function um2:entity/maxon/jab/select_2
+execute if entity @p[distance=..8,gamemode=!creative,gamemode=!spectator] if predicate um2:random/three_fourths run function um2:entity/maxon/jab/select_2

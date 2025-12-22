@@ -1,0 +1,1 @@
+execute if entity @p[distance=..8,gamemode=!creative,gamemode=!spectator] run function um2:entity/maxon/sweep/select_2

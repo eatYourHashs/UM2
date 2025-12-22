@@ -4,3 +4,4 @@ particle crit ^ ^1.6 ^0.5 0.15 0.15 0.15 0.1 15
 execute positioned ^ ^1.6 ^1 run function um2:entity/maxon/jab/attack_cast 
 tp @s ^ ^0.1 ^0.5 ~ ~
 data modify entity @s NoAI set value 0b
+# TODO: sounds
