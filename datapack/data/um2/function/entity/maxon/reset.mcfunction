@@ -11,5 +11,7 @@ tag @s remove um2.giant_spears
 
 tag @s remove um2.jab_followup
 tag @s remove um2.jab_2
+tag @s remove um2.sweep_followup
+tag @s remove um2.sweep_2
 
 tag @s remove um2.attacking

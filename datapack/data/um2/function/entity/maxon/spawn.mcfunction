@@ -3,3 +3,4 @@ summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rot
 execute store result score @n[tag=um2.maxon] um2.diff run difficulty
 tag @e[tag=um2.new] remove um2.new
 bossbar set um2:maxon value 300
+bossbar set um2:maxon name "Demon General Maxon"

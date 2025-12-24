@@ -58,6 +58,34 @@
           "type": "minecraft:model",
           "model": "um2:entity/maxon/sweep_2"
         }
+      },
+      {
+        "when": "charge_windup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon/charge_windup"
+        }
+      },
+      {
+        "when": "charge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon/charge"
+        }
+      },
+      {
+        "when": "phase_transition",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon/phase_transition"
+        }
+      },
+      {
+        "when": "phase_transition_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon/phase_transition_2"
+        }
       }
     ],
     "fallback": {

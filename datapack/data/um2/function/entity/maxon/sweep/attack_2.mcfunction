@@ -7,4 +7,4 @@ scoreboard players operation @n[tag=um2.maxon_sweep] um2.diff = @s um2.diff
 scoreboard players set $cast.temp um2.dummy 0
 tp @s ^ ^0.1 ^0.5 ~ ~
 data modify entity @s NoAI set value 0b
-# TODO: sounds
+playsound um2:entity.maxon.sweep hostile @a ~ ~ ~ 2 1

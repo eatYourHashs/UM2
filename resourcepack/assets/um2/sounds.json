@@ -111,5 +111,35 @@
     "sounds": [
       "um2:entity/tyrion_demon/roar"
     ]
+  },
+  "entity.maxon.charge": {
+    "subtitle": "subtitle.um2.entity.maxon.charge",
+    "sounds": [
+      "um2:entity/maxon/charge"
+    ]
+  },
+  "entity.maxon.jab": {
+    "subtitle": "subtitle.um2.entity.maxon.jab",
+    "sounds": [
+      "um2:entity/maxon/jab"
+    ]
+  },
+  "entity.maxon.windup": {
+    "subtitle": "subtitle.um2.entity.maxon.windup",
+    "sounds": [
+      "um2:entity/maxon/windup"
+    ]
+  },
+  "entity.maxon.sweep": {
+    "subtitle": "subtitle.um2.entity.maxon.sweep",
+    "sounds": [
+      "um2:entity/maxon/sweep"
+    ]
+  },
+  "entity.maxon.phase_transition1": {
+    "subtitle": "subtitle.um2.entity.maxon.phase_transition1",
+    "sounds": [
+      "um2:entity/maxon/phase_transition1"
+    ]
   }
 }

@@ -58,6 +58,11 @@
   "subtitle.um2.entity.tyrion_demon.hurt": "Tyrion Demon hurts",
   "subtitle.um2.entity.tyrion_demon.death": "Tyrion Demon dies",
   "subtitle.um2.entity.tyrion_demon.roar": "Tyrion Demon roars",
+  "subtitle.um2.entity.maxon.charge": "Maxon charges",
+  "subtitle.um2.entity.maxon.jab": "Maxon jabs",
+  "subtitle.um2.entity.maxon.windup": "Maxon prepares attack",
+  "subtitle.um2.entity.maxon.sweep": "Maxon sweeps",
+  "subtitle.um2.entity.maxon.phase_transition1": "Maxon breathes",
 
   "dialog.um2.demonomicon": "Demonomicon",
   "dialog.um2.back": "Back",
