@@ -86,6 +86,27 @@
           "type": "minecraft:model",
           "model": "um2:entity/maxon_plains_scorcher/phase_transition_2"
         }
+      },
+      {
+        "when": "phase_transition_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/phase_transition_3"
+        }
+      },
+      {
+        "when": "fire_ring_slam_jump",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/fire_ring_slam_jump"
+        }
+      },
+      {
+        "when": "fire_ring_slam",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/fire_ring_slam"
+        }
       }
     ],
     "fallback": {

@@ -7,5 +7,6 @@ execute if score @s um2.dummy matches 60.. run function um2:entity/maxon/update_
 execute if score @s um2.dummy matches 60.. run particle minecraft:flame ~ ~1.25 ~ 0.2 0.4 0.2 0.1 5
 
 execute if score @s um2.dummy matches 80 run item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["phase_transition_2"]}}
+execute if score @s um2.dummy matches 95 run item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["phase_transition_3"]}}
 
 execute if score @s um2.dummy matches 120.. run function um2:entity/maxon/reset

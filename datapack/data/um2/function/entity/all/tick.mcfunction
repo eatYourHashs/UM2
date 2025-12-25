@@ -6,3 +6,4 @@ execute if entity @s[tag=um2.demonic_reinforced_arrow] run function um2:item/dem
 execute if entity @s[tag=um2.tyrion_demon] run function um2:entity/tyrion_demon/tick
 execute if entity @s[tag=um2.maxon] run function um2:entity/maxon/tick
 execute if entity @s[tag=um2.maxon_sweep] run function um2:entity/maxon/sweep/effect/tick
+execute if entity @s[tag=um2.maxon_sweep] run function um2:entity/maxon/fire_ring_slam/effect/tick
