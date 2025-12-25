@@ -1,0 +1,96 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "jab_windup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/jab_windup"
+        }
+      },
+      {
+        "when": "jab_anim",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/jab_anim"
+        }
+      },
+      {
+        "when": "jab",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/jab"
+        }
+      },
+      {
+        "when": "jab_followup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/jab_followup"
+        }
+      },
+      {
+        "when": "sweep_windup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/sweep_windup"
+        }
+      },
+      {
+        "when": "sweep",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/sweep"
+        }
+      },
+      {
+        "when": "sweep_followup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/sweep_followup"
+        }
+      },
+      {
+        "when": "sweep_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/sweep_2"
+        }
+      },
+      {
+        "when": "charge_windup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/charge_windup"
+        }
+      },
+      {
+        "when": "charge",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/charge"
+        }
+      },
+      {
+        "when": "phase_transition",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/phase_transition"
+        }
+      },
+      {
+        "when": "phase_transition_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/phase_transition_2"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "um2:entity/maxon_plains_scorcher/main"
+    }
+  }
+}

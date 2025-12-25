@@ -64,6 +64,10 @@
   "subtitle.um2.entity.maxon.sweep": "Maxon sweeps",
   "subtitle.um2.entity.maxon.phase_transition1": "Maxon breathes",
 
+  "entity.um2.tyrion_demon": "Tyrion Demon",
+  "entity.um2.maxon": "Demon General Maxon",
+  "entity.um2.maxon_plains_scorcher": "Maxon, Plains Scorcher",
+
   "dialog.um2.demonomicon": "Demonomicon",
   "dialog.um2.back": "Back",
   "dialog.um2.close": "Close",
