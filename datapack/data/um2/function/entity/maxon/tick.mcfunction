@@ -2,6 +2,7 @@
 # custom_model_data.flags[1] = moving
 
 execute unless entity @p[distance=..40,gamemode=!spectator] run effect give @s resistance 1 4 true
+execute store result score @s um2.diff run difficulty
 
 scoreboard players add @s um2.dummy 1
 scoreboard players add @s um2.dummy2 1

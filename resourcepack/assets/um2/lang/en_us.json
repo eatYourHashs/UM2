@@ -72,5 +72,9 @@
   "dialog.um2.demonomicon": "Demonomicon",
   "dialog.um2.back": "Back",
   "dialog.um2.close": "Close",
-  "dialog.um2.demonic_steel_longsword": "q"
+  "dialog.um2.demonic_steel_longsword": "q",
+
+  "death.attack.maxon_fire": "%1$s was scorched with infernal flame",
+  "death.attack.maxon_fire.player": "%1$s was scorched by %2$s",
+  "death.attack.maxon_fire.item": "%1$s was scorched by %2$s using %3$s"
 }

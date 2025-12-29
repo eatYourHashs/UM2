@@ -3,5 +3,6 @@ scoreboard players set $cast.temp um2.dummy 0
 particle crit ^ ^1.6 ^0.5 0.15 0.15 0.15 0.1 15
 playsound um2:entity.maxon.jab hostile @a ~ ~ ~ 2 1
 execute positioned ^ ^1.6 ^1 run function um2:entity/maxon/jab/attack_cast 
+execute if entity @s[tag=um2.phase_2] run function um2:entity/maxon/jab/tracer/spawn
 tp @s ^ ^0.1 ^0.5 ~ ~
 data modify entity @s NoAI set value 0b

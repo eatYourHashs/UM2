@@ -1,0 +1,1 @@
+summon item_display ~ ~ ~ {item_display:"head",Tags:["um2.ticking","um2.maxon_small_spear"],interpolation_duration:1,teleport_duration:1,brightness:{sky:15,block:15},item:{id:"minecraft:structure_block",count:1,components:{"minecraft:item_model":"um2:entity/maxon/small_spear"}}}

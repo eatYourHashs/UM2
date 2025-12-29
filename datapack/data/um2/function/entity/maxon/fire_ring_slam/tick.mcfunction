@@ -15,6 +15,6 @@ execute if score @s um2.dummy matches 60..69 at @s run tp @s ~ ~0.8 ~
 execute if score @s um2.dummy matches 60..90 at @s run particle flame ~ ~1.25 ~ 0.2 0.4 0.2 0.3 20
 execute if score @s um2.dummy matches 70 run function um2:entity/maxon/fire_ring_slam/dive
 execute if score @s um2.dummy matches 80..89 at @s run tp @s ~ ~-0.8 ~
-execute if score @s um2.dummy matches 70 run function um2:entity/maxon/fire_ring_slam/slam
+execute if score @s um2.dummy matches 90 run function um2:entity/maxon/fire_ring_slam/slam
 
 execute if score @s um2.dummy matches 110.. run function um2:entity/maxon/reset
