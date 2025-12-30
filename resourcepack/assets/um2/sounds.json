@@ -147,5 +147,17 @@
     "sounds": [
       "um2:entity/maxon/phase_transition2"
     ]
+  },
+  "entity.maxon.small_spear_drop": {
+    "subtitle": "subtitle.um2.entity.maxon.small_spear_drop",
+    "sounds": [
+      "um2:entity/maxon/small_spear_drop"
+    ]
+  },
+  "entity.maxon.fire_ring_slam": {
+    "subtitle": "subtitle.um2.entity.maxon.fire_ring_slam",
+    "sounds": [
+      "um2:entity/maxon/fire_ring_slam"
+    ]
   }
 }

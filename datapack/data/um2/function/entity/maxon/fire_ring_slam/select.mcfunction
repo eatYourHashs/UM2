@@ -2,6 +2,7 @@ tag @s add um2.fire_ring_slam
 tag @s add um2.prev_fire_ring_slam
 tag @s add um2.prev_charge
 tag @s add um2.attacking
+tag @s remove um2.prev_giant_spears
 playsound um2:entity.maxon.windup hostile @a ~ ~ ~ 2 1
 data modify entity @s NoAI set value 1b
 execute facing entity @p[gamemode=!spectator,gamemode=!creative] feet run function um2:entity/maxon/zip_cast
