@@ -11,3 +11,4 @@ execute if entity @s[tag=um2.maxon_small_spear_jab_tracer] run function um2:enti
 execute if entity @s[tag=um2.maxon_small_spear_sweep_tracer] run function um2:entity/maxon/sweep/tracer/tick
 execute if entity @s[tag=um2.maxon_small_spear] run function um2:entity/maxon/small_spear/tick
 execute if entity @s[tag=um2.maxon_medium_spear_marker] run function um2:entity/maxon/fire_ring_slam/medium_spear/marker_tick
+execute if entity @s[tag=um2.maxon_clone] run function um2:entity/maxon/charge/clone/tick
