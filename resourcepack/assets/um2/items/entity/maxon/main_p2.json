@@ -107,6 +107,27 @@
           "type": "minecraft:model",
           "model": "um2:entity/maxon_plains_scorcher/fire_ring_slam"
         }
+      },
+      {
+        "when": "giant_spears_jump",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/giant_spears_jump"
+        }
+      },
+      {
+        "when": "giant_spears_windup",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/giant_spears_windup"
+        }
+      },
+      {
+        "when": "giant_spears",
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:entity/maxon_plains_scorcher/giant_spears"
+        }
       }
     ],
     "fallback": {

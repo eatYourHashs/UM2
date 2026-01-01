@@ -159,5 +159,22 @@
     "sounds": [
       "um2:entity/maxon/fire_ring_slam"
     ]
+  },
+  "entity.maxon.hurt": {
+    "subtitle": "subtitle.um2.entity.maxon.hurt",
+    "sounds": [
+      {
+        "name": "um2:entity/maxon/hurt",
+        "pitch": 0.9
+      },
+      {
+        "name": "um2:entity/maxon/hurt",
+        "pitch": 1
+      },
+      {
+        "name": "um2:entity/maxon/hurt",
+        "pitch": 1.1
+      }
+    ]
   }
 }
