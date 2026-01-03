@@ -194,5 +194,17 @@
     "sounds": [
       "um2:entity/maxon/giant_spear_drop"
     ]
+  },
+  "entity.maxon.giant_spear_explode": {
+    "subtitle": "subtitle.um2.entity.maxon.giant_spear_explode",
+    "sounds": [
+      "um2:entity/maxon/giant_spear_explode"
+    ]
+  },
+  "entity.maxon.explode": {
+    "subtitle": "subtitle.um2.entity.maxon.explode",
+    "sounds": [
+      "um2:entity/maxon/explode"
+    ]
   }
 }
