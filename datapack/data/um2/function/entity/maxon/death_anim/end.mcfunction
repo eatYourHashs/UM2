@@ -1,4 +1,5 @@
-bossbar set um2:maxon players @a[distance=1]
+bossbar set um2:maxon players @a[distance=0]
+bossbar set um2:maxon visible false
 kill @s
 kill @n[tag=um2.maxon_model]
 particle minecraft:explosion_emitter

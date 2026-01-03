@@ -206,5 +206,11 @@
     "sounds": [
       "um2:entity/maxon/explode"
     ]
+  },
+  "entity.maxon.death_burn": {
+    "subtitle": "subtitle.um2.entity.maxon.death_burn",
+    "sounds": [
+      "um2:entity/maxon/death_burn"
+    ]
   }
 }

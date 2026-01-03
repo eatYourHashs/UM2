@@ -4,3 +4,4 @@ execute store result score @n[tag=um2.maxon] um2.diff run difficulty
 tag @e[tag=um2.new] remove um2.new
 bossbar set um2:maxon value 300
 bossbar set um2:maxon name {"translate":"entity.um2.maxon"}
+bossbar set um2:maxon visible true
