@@ -176,5 +176,23 @@
         "pitch": 1.1
       }
     ]
+  },
+  "entity.maxon.giant_spears_summon": {
+    "subtitle": "subtitle.um2.entity.maxon.giant_spears_summon",
+    "sounds": [
+      "um2:entity/maxon/giant_spears_summon"
+    ]
+  },
+  "entity.maxon.giant_spear_impact": {
+    "subtitle": "subtitle.um2.entity.maxon.giant_spear_impact",
+    "sounds": [
+      "um2:entity/maxon/giant_spear_impact"
+    ]
+  },
+  "entity.maxon.giant_spear_drop": {
+    "subtitle": "subtitle.um2.entity.maxon.giant_spear_drop",
+    "sounds": [
+      "um2:entity/maxon/giant_spear_drop"
+    ]
   }
 }

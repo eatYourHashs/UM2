@@ -67,6 +67,9 @@
   "subtitle.um2.entity.maxon.small_spear_drop": "Maxon's small spear drops",
   "subtitle.um2.entity.maxon.fire_ring_slam": "Maxon slams",
   "subtitle.um2.entity.maxon.hurt": "Maxon hurts",
+  "subtitle.um2.entity.maxon.giant_spears_summon": "Maxon summons giant spears",
+  "subtitle.um2.entity.maxon.giant_spear_drop": "Maxon's giant spear drops",
+  "subtitle.um2.entity.maxon.giant_spear_impact": "Maxon's giant spear impacts",
 
   "entity.um2.tyrion_demon": "Tyrion Demon",
   "entity.um2.maxon": "Demon General Maxon",
