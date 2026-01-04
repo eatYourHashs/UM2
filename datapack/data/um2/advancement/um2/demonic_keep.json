@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "advancements.um2.demonic_keep.title"
+    },
+    "description": {
+      "translate": "advancements.um2.demonic_keep.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "um2:um2/root",
+  "criteria": {
+    "demonic_keep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "um2:demonic_keep"
+          }
+        }
+      }
+    }
+  }
+}

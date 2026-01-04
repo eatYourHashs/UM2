@@ -16,6 +16,7 @@ execute if entity @s[tag=um2.phase_transition] run function um2:entity/maxon/pha
 execute if entity @s[tag=um2.fire_ring_slam] run function um2:entity/maxon/fire_ring_slam/tick
 execute if entity @s[tag=um2.giant_spears] run function um2:entity/maxon/giant_spears/tick
 execute if entity @s[tag=um2.death_anim] run function um2:entity/maxon/death_anim/tick
+execute if entity @s[tag=um2.spawn_anim] run function um2:entity/maxon/spawn_anim/tick
 
 execute at @s unless block ~ ~ ~ #um2:not_solid if block ~ ~1 ~ #um2:not_solid if block ~ ~2 ~ #um2:not_solid run tp ~ ~0.5 ~
 execute at @s unless block ~ ~1 ~ #um2:not_solid run function um2:entity/maxon/break_blocks

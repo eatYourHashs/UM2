@@ -8,6 +8,8 @@ tag @s remove um2.charge
 tag @s remove um2.phase_transition
 tag @s remove um2.fire_ring_slam
 tag @s remove um2.giant_spears
+tag @s remove um2.death_anim
+tag @s remove um2.spawn_anim
 
 tag @s remove um2.jab_followup
 tag @s remove um2.jab_2

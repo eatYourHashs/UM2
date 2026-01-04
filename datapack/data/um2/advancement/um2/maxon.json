@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "um2:flare_runner"
+      }
+    },
+    "title": {
+      "translate": "advancements.um2.maxon.title"
+    },
+    "description": {
+      "translate": "advancements.um2.maxon.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "um2:um2/slay_demon",
+  "criteria": {
+    "maxon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

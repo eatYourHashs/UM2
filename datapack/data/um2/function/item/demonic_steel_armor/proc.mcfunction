@@ -10,4 +10,5 @@ execute if score $temp um2.dummy matches 2 run effect give @s minecraft:absorpti
 execute if score $temp um2.dummy matches 3 run effect give @s minecraft:absorption 15 2 false
 execute if score $temp um2.dummy matches 4 run effect give @s minecraft:absorption 20 3 false
 execute if score $temp um2.dummy matches 5 run effect give @s minecraft:absorption 25 4 false
+execute if score $temp um2.dummy matches 5.. run advancement grant @s only um2:um2/full_demonic_steel full_demonic_steel
 playsound um2:item.demonic_steel_armor.ward player @a ~ ~ ~ 1 2

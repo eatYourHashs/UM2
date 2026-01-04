@@ -7,5 +7,6 @@ summon minecraft:experience_orb ~ ~ ~ {Value:3s}
 summon minecraft:experience_orb ~ ~ ~ {Value:2s}
 # put sounds here
 playsound um2:entity.tyrion_demon.death hostile @a ~ ~ ~ 0.9 1
+advancement grant @p only um2:um2/slay_demon slay_demon
 kill @n[type=item_display,tag=um2.tyrion_demon_model]
 kill @s

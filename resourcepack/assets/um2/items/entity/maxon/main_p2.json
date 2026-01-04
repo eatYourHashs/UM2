@@ -1,152 +1,307 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "minecraft:condition",
     "property": "minecraft:custom_model_data",
-    "cases": [
-      {
-        "when": "jab_windup",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/jab_windup"
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "jab_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/jab_windup"
+          }
+        },
+        {
+          "when": "jab_anim",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/jab_anim"
+          }
+        },
+        {
+          "when": "jab",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/jab"
+          }
+        },
+        {
+          "when": "jab_followup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/jab_followup"
+          }
+        },
+        {
+          "when": "sweep_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/sweep_windup"
+          }
+        },
+        {
+          "when": "sweep",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/sweep"
+          }
+        },
+        {
+          "when": "sweep_followup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/sweep_followup"
+          }
+        },
+        {
+          "when": "sweep_2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/sweep_2"
+          }
+        },
+        {
+          "when": "charge_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/charge_windup"
+          }
+        },
+        {
+          "when": "charge",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/charge"
+          }
+        },
+        {
+          "when": "phase_transition",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/phase_transition"
+          }
+        },
+        {
+          "when": "phase_transition_2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/phase_transition_2"
+          }
+        },
+        {
+          "when": "phase_transition_3",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/phase_transition_3"
+          }
+        },
+        {
+          "when": "fire_ring_slam_jump",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/fire_ring_slam_jump"
+          }
+        },
+        {
+          "when": "fire_ring_slam",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/fire_ring_slam"
+          }
+        },
+        {
+          "when": "giant_spears_jump",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/giant_spears_jump"
+          }
+        },
+        {
+          "when": "giant_spears_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/giant_spears_windup"
+          }
+        },
+        {
+          "when": "giant_spears",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/giant_spears"
+          }
+        },
+        {
+          "when": "death_anim",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/death_anim"
+          }
+        },
+        {
+          "when": "death_anim2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/hurt/death_anim2"
+          }
         }
-      },
-      {
-        "when": "jab_anim",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/jab_anim"
-        }
-      },
-      {
-        "when": "jab",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/jab"
-        }
-      },
-      {
-        "when": "jab_followup",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/jab_followup"
-        }
-      },
-      {
-        "when": "sweep_windup",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/sweep_windup"
-        }
-      },
-      {
-        "when": "sweep",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/sweep"
-        }
-      },
-      {
-        "when": "sweep_followup",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/sweep_followup"
-        }
-      },
-      {
-        "when": "sweep_2",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/sweep_2"
-        }
-      },
-      {
-        "when": "charge_windup",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/charge_windup"
-        }
-      },
-      {
-        "when": "charge",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/charge"
-        }
-      },
-      {
-        "when": "phase_transition",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/phase_transition"
-        }
-      },
-      {
-        "when": "phase_transition_2",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/phase_transition_2"
-        }
-      },
-      {
-        "when": "phase_transition_3",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/phase_transition_3"
-        }
-      },
-      {
-        "when": "fire_ring_slam_jump",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/fire_ring_slam_jump"
-        }
-      },
-      {
-        "when": "fire_ring_slam",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/fire_ring_slam"
-        }
-      },
-      {
-        "when": "giant_spears_jump",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/giant_spears_jump"
-        }
-      },
-      {
-        "when": "giant_spears_windup",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/giant_spears_windup"
-        }
-      },
-      {
-        "when": "giant_spears",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/giant_spears"
-        }
-      },
-      {
-        "when": "death_anim",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/death_anim"
-        }
-      },
-      {
-        "when": "death_anim2",
-        "model": {
-          "type": "minecraft:model",
-          "model": "um2:entity/maxon_plains_scorcher/death_anim2"
-        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "um2:entity/maxon_plains_scorcher/hurt/main"
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "um2:entity/maxon_plains_scorcher/main"
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "jab_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/jab_windup"
+          }
+        },
+        {
+          "when": "jab_anim",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/jab_anim"
+          }
+        },
+        {
+          "when": "jab",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/jab"
+          }
+        },
+        {
+          "when": "jab_followup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/jab_followup"
+          }
+        },
+        {
+          "when": "sweep_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/sweep_windup"
+          }
+        },
+        {
+          "when": "sweep",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/sweep"
+          }
+        },
+        {
+          "when": "sweep_followup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/sweep_followup"
+          }
+        },
+        {
+          "when": "sweep_2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/sweep_2"
+          }
+        },
+        {
+          "when": "charge_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/charge_windup"
+          }
+        },
+        {
+          "when": "charge",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/charge"
+          }
+        },
+        {
+          "when": "phase_transition",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/phase_transition"
+          }
+        },
+        {
+          "when": "phase_transition_2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/phase_transition_2"
+          }
+        },
+        {
+          "when": "phase_transition_3",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/phase_transition_3"
+          }
+        },
+        {
+          "when": "fire_ring_slam_jump",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/fire_ring_slam_jump"
+          }
+        },
+        {
+          "when": "fire_ring_slam",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/fire_ring_slam"
+          }
+        },
+        {
+          "when": "giant_spears_jump",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/giant_spears_jump"
+          }
+        },
+        {
+          "when": "giant_spears_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/giant_spears_windup"
+          }
+        },
+        {
+          "when": "giant_spears",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/giant_spears"
+          }
+        },
+        {
+          "when": "death_anim",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/death_anim"
+          }
+        },
+        {
+          "when": "death_anim2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/maxon_plains_scorcher/death_anim2"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "um2:entity/maxon_plains_scorcher/main"
+      }
     }
   }
 }

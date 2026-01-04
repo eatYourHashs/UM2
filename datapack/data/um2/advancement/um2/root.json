@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "um2:demonic_steel_helmet"
+      }
+    },
+    "title": {
+      "translate": "advancements.um2.root.title"
+    },
+    "description": {
+      "translate": "advancements.um2.root.description"
+    },
+    "background": "minecraft:block/red_nether_bricks",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "um2:item/demonomicon"
+    ]
+  }
+}

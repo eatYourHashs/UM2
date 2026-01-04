@@ -4,6 +4,17 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "um2:item/demon_skin",
+          "functions": [
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "count": 1,
+              "enchantment": "minecraft:looting"
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:structure_block",
           "functions": [

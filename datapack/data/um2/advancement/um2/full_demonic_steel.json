@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "um2:demonic_steel_longsword"
+      }
+    },
+    "title": {
+      "translate": "advancements.um2.full_demonic_steel.title"
+    },
+    "description": {
+      "translate": "advancements.um2.full_demonic_steel.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "um2:um2/slay_demon",
+  "criteria": {
+    "full_demonic_steel": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
