@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "item.um2.demonomicon"
+  },
+  "external_title": [{
+    "text": "\ua007",
+    "color": "white",
+    "shadow_color": 0,
+    "font": "um2:demonomicon_icons"
+  },
+  {
+      "text": " ",
+      "font": "minecraft:default"
+    },
+  {
+      "translate": "item.um2.demonomicon",
+      "shadow_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "font": "minecraft:default"
+    }],
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:structure_block",
+        "components": {
+          "minecraft:item_model": "um2:demonomicon",
+          "minecraft:rarity": "common",
+          "minecraft:item_name": {
+            "translate": "item.um2.demonomicon"
+          },
+          "minecraft:lore": [{
+                  "translate": "item.um2.demonomicon.lore.1",
+                  "color": "dark_gray",
+                  "italic": true
+                }]
+        }
+      },
+      "description": {
+        "translate": "dialog.um2.demonomicon"
+      },
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "action": {
+    "label": {
+      "translate": "dialog.um2.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "um2:demonomicon/main"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "um2:item/dragons_wrath"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "um2:item/dragon_lash"
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "random_sequence": "minecraft:entities/ender_dragon"
+}

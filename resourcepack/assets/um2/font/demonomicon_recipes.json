@@ -1,0 +1,15 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "um2:gui/demonomicon_icons.png",
+      "ascent": 23,
+      "height": 54,
+      "chars": [
+        "\ua000",
+        "\ua001",
+        "\ua002",
+        "\ua003"
+      ]
+    }
+  ]
+}

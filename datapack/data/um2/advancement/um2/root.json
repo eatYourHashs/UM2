@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:structure_block",
       "components": {
-        "minecraft:item_model": "um2:demonic_steel_helmet"
+        "minecraft:item_model": "um2:demonomicon"
       }
     },
     "title": {

@@ -3,11 +3,26 @@
   "title": {
     "translate": "item.um2.demonic_reinforced_bow"
   },
-  "external_title": {
-    "atlas": "minecraft:items",
-    "sprite": "um2:item/demonic_reinforced_bow/pulling_0",
-    "shadow_color": 0
+  "external_title": [{
+    "text": "\ua002",
+    "color": "white",
+    "shadow_color": 0,
+    "font": "um2:demonomicon_icons"
   },
+  {
+      "text": " ",
+      "font": "minecraft:default"
+    },
+  {
+      "translate": "item.um2.demonic_reinforced_bow",
+      "shadow_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "font": "minecraft:default"
+    }],
   "body": [
     {
       "type": "minecraft:item",

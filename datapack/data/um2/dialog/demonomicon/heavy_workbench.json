@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "block.smithed.crafter"
+  },
+  "external_title": [
+    {
+    "text": "\ua006",
+    "color": "white",
+    "shadow_color": 0,
+    "font": "um2:demonomicon_icons"
+  },
+  {
+      "text": " ",
+      "font": "minecraft:default"
+    },
+  {
+      "translate": "block.smithed.crafter",
+      "shadow_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "font": "minecraft:default"
+    }
+],
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:structure_block",
+        "components": {
+          "minecraft:item_model": "smithed.crafter:table",
+          "minecraft:rarity": "common",
+          "minecraft:item_name": {
+            "translate": "block.smithed.crafter"
+          }
+        }
+      },
+      "description": {
+        "translate": "dialog.um2.heavy_workbench"
+      },
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "action": {
+    "label": {
+      "translate": "dialog.um2.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "um2:demonomicon/main"
+    }
+  }
+}

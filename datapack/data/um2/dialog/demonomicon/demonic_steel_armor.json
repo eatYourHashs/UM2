@@ -3,11 +3,26 @@
   "title": {
     "translate": "item.um2.demonic_steel_armor"
   },
-  "external_title": {
-    "atlas": "minecraft:items",
-    "sprite": "um2:item/demonic_steel_helmet",
-    "shadow_color": 0
+  "external_title": [{
+    "text": "\ua001",
+    "color": "white",
+    "shadow_color": 0,
+    "font": "um2:demonomicon_icons"
   },
+  {
+      "text": " ",
+      "font": "minecraft:default"
+    },
+  {
+      "translate": "item.um2.demonic_steel_armor",
+      "shadow_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "font": "minecraft:default"
+    }],
   "body": [
     {
       "type": "minecraft:item",
