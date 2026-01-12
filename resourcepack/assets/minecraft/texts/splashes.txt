@@ -487,6 +487,7 @@ Chicken Jockey!
 §cpain_and_suffering.mcfunction
 §cListen to Holst!
 §cListen to Stravinsky!
+§cListen to Mahler!
 §cOnly 3 bosses!
 §cSteve beats Goku!
 §cSteve is in Smash!
@@ -508,3 +509,4 @@ Chicken Jockey!
 §cEphemeral equations!
 §cRelic and ritual!
 §cContains a little worldgen
+§cToolsmith incident!

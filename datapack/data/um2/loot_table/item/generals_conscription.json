@@ -19,7 +19,12 @@
                   "translate": "item.um2.generals_conscription.lore.1.2",
                   "color": "red",
                   "italic": false
-                }]
+                }],
+                {
+                  "translate": "item.um2.generals_conscription.lore.2",
+                  "color": "dark_gray",
+                  "italic": false
+                }
               ],
               "mode": "replace_all"
             },

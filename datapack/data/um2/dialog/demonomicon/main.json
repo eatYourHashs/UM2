@@ -15,11 +15,13 @@
   "dialogs": [
     "um2:demonomicon/heavy_workbench",
     "um2:demonomicon/demonomicon",
+    "um2:demonomicon/demons",
     "um2:demonomicon/demonic_steel",
     "um2:demonomicon/demonic_steel_longsword",
     "um2:demonomicon/demonic_steel_armor",
     "um2:demonomicon/demonic_reinforced_bow",
     "um2:demonomicon/dragon_drops",
-    "um2:demonomicon/nether_shard"
+    "um2:demonomicon/nether_shard",
+    "um2:demonomicon/maxon"
   ]
 }

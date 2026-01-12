@@ -1,10 +1,10 @@
 {
   "type": "minecraft:notice",
   "title": {
-    "translate": "dialog.um2.dragon_drops.title"
+    "translate": "entity.um2.maxon"
   },
   "external_title": [{
-    "text": "\ua004",
+    "text": "\ua009",
     "color": "white",
     "shadow_color": 0,
     "font": "um2:demonomicon_icons"
@@ -14,7 +14,7 @@
       "font": "minecraft:default"
     },
   {
-      "translate": "dialog.um2.dragon_drops.title",
+      "translate": "entity.um2.maxon",
       "shadow_color": [
         0,
         0,
@@ -27,37 +27,94 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "translate": "dialog.um2.dragon_drops.1"
+        "translate": "dialog.um2.maxon.1"
       },
       "width": 400
     },
     {
       "type": "minecraft:item",
       "item": {
-        "id": "minecraft:netherite_sword",
+        "id": "minecraft:structure_block",
         "components": {
-          "minecraft:item_model": "um2:dragon_lash",
-          "minecraft:rarity": "uncommon",
+          "minecraft:item_model": "um2:generals_conscription",
+          "minecraft:rarity": "common",
           "minecraft:item_name": {
-            "translate": "item.um2.dragon_lash"
+            "translate": "item.um2.generals_conscription"
           },
           "minecraft:lore": [
-            {
-                  "translate": "item.um2.dragon_lash.lore.1",
+                [{
+                  "translate": "item.um2.generals_conscription.lore.1.1",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "translate": "item.um2.dragon_lash.lore.2",
+                  "translate": "item.um2.generals_conscription.lore.1.2",
                   "color": "red",
                   "italic": false
-                },
+                }],
                 {
-                  "translate": "item.um2.dragon_lash.lore.3",
+                  "translate": "item.um2.generals_conscription.lore.2",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ]
+        }
+      },
+      "description": {
+        "text": "\n\ua002\n\n\n",
+        "font": "um2:demonomicon_recipes"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.maxon.2"
+      },
+      "width": 400
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:netherite_spear",
+        "components": {
+          "minecraft:item_model": "um2:flare_runner",
+          "minecraft:rarity": "rare",
+          "minecraft:item_name": {
+            "translate": "item.um2.flare_runner"
+          },
+          "minecraft:lore": [
+                [
+                  {
+                    "translate": "item.um2.flare_runner.lore.1.1",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.flare_runner.lore.1.2",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "item.um2.flare_runner.lore.2.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.flare_runner.lore.2.2",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.um2.flare_runner.lore.3",
                   "color": "dark_green",
                   "italic": false
                 }
-          ],
+              ],
                 "minecraft:tooltip_display": {
                   "hidden_components": [
                     "minecraft:attribute_modifiers"
@@ -66,56 +123,7 @@
         }
       },
       "description": {
-        "translate": "dialog.um2.dragon_drops.2"
-      },
-      "width": 16,
-      "height": 16
-    },
-    {
-      "type": "minecraft:item",
-      "item": {
-        "id": "minecraft:bow",
-        "components": {
-          "minecraft:item_model": "um2:dragons_wrath",
-          "minecraft:rarity": "uncommon",
-          "minecraft:item_name": {
-            "translate": "item.um2.dragons_wrath"
-          },
-          "minecraft:lore": [
-            [
-                  {
-                    "translate": "item.um2.dragons_wrath.lore.1.1",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "item.um2.dragons_wrath.lore.1.2",
-                    "color": "gold",
-                    "italic": false
-                  },
-                  {
-                    "translate": "item.um2.dragons_wrath.lore.1.3",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ],
-                [
-                  {
-                    "translate": "item.um2.dragons_wrath.lore.2.1",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "translate": "item.um2.dragons_wrath.lore.2.2",
-                    "color": "light_purple",
-                    "italic": false
-                  }
-                ]
-          ]
-        }
-      },
-      "description": {
-        "translate": "dialog.um2.dragon_drops.3"
+        "translate": "dialog.um2.maxon.3"
       },
       "width": 16,
       "height": 16

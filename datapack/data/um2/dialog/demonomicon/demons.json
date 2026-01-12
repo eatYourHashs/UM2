@@ -25,22 +25,11 @@
     }],
   "body": [
     {
-      "type": "minecraft:item",
-      "item": {
-        "id": "minecraft:structure_block",
-        "components": {
-          "minecraft:item_model": "um2:demonic_steel_ingot",
-          "minecraft:rarity": "common",
-          "minecraft:item_name": {
-            "translate": "item.um2.demonic_steel_ingot"
-          }
-        }
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.demons"
       },
-      "description": {
-        "translate": "dialog.um2.demonic_steel_ingot"
-      },
-      "width": 32,
-      "height": 32
+      "width": 400
     }
   ],
   "can_close_with_escape": true,

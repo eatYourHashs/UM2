@@ -25,6 +25,13 @@
     }],
   "body": [
     {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.demonic_steel_armor"
+      },
+      "width": 400
+    },
+    {
       "type": "minecraft:item",
       "item": {
         "id": "minecraft:copper_helmet",
@@ -76,8 +83,12 @@
           ]
         }
       },
-      "width": 32,
-      "height": 32
+      "description": {
+        "text": "\n\ua008\n\n\n",
+        "font": "um2:demonomicon_recipes"
+      },
+      "width": 16,
+      "height": 16
     },
     {
       "type": "minecraft:item",
@@ -131,8 +142,12 @@
           ]
         }
       },
-      "width": 32,
-      "height": 32
+      "description": {
+        "text": "\n\ua009\n\n\n",
+        "font": "um2:demonomicon_recipes"
+      },
+      "width": 16,
+      "height": 16
     },
     {
       "type": "minecraft:item",
@@ -186,8 +201,12 @@
           ]
         }
       },
-      "width": 32,
-      "height": 32
+      "description": {
+        "text": "\n\ua010\n\n\n",
+        "font": "um2:demonomicon_recipes"
+      },
+      "width": 16,
+      "height": 16
     },
     {
       "type": "minecraft:item",
@@ -241,8 +260,12 @@
           ]
         }
       },
-      "width": 32,
-      "height": 32
+      "description": {
+        "text": "\n\ua011\n\n\n",
+        "font": "um2:demonomicon_recipes"
+      },
+      "width": 16,
+      "height": 16
     }
   ],
   "can_close_with_escape": true,

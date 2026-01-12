@@ -25,6 +25,13 @@
     }],
   "body": [
     {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.demonic_reinforced_bow"
+      },
+      "width": 400
+    },
+    {
       "type": "minecraft:item",
       "item": {
         "id": "minecraft:bow",
@@ -71,10 +78,11 @@
         }
       },
       "description": {
-        "translate": "dialog.um2.demonic_reinforced_bow"
+        "text": "\n\ua007\n\n\n",
+        "font": "um2:demonomicon_recipes"
       },
-      "width": 32,
-      "height": 32
+      "width": 16,
+      "height": 16
     }
   ],
   "can_close_with_escape": true,

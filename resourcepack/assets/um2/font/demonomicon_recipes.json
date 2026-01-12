@@ -1,14 +1,20 @@
 {
   "providers": [{
       "type": "bitmap",
-      "file": "um2:gui/demonomicon_icons.png",
+      "file": "um2:gui/demonomicon_recipes.png",
       "ascent": 23,
       "height": 54,
       "chars": [
-        "\ua000",
-        "\ua001",
-        "\ua002",
-        "\ua003"
+        "\ua000\ua010",
+        "\ua001\ua011",
+        "\ua002\ua012",
+        "\ua003\ua013",
+        "\ua004\ua014",
+        "\ua005\ua015",
+        "\ua006\ua016",
+        "\ua007\ua017",
+        "\ua008\ua018",
+        "\ua009\ua019"
       ]
     }
   ]
