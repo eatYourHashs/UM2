@@ -1,0 +1,1 @@
+execute if entity @s[tag=um2.tyrion_demon_model] run function um2:entity/tyrion_demon/model_20tick

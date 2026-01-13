@@ -1,0 +1,1 @@
+execute unless entity @n[tag=um2.tyrion_demon,distance=..5] run kill @s
