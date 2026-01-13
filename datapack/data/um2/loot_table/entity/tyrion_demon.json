@@ -13,7 +13,12 @@
               "enchantment": "minecraft:looting"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:structure_block",
