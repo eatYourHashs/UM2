@@ -39,7 +39,7 @@
                   "speed_multiplier": 1
                 },
                 "minecraft:consumable": {
-                  "consume_seconds": 100,
+                  "consume_seconds": 1000,
                   "animation": "none",
                   "sound": "minecraft:item.book.page_turn",
                   "has_consume_particles": false

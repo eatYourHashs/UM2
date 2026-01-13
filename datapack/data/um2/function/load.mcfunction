@@ -5,6 +5,7 @@ scoreboard objectives add um2.version dummy
 
 scoreboard objectives add um2.demonomicon trigger
 
+scoreboard objectives add um2.since_dialog dummy
 scoreboard objectives add um2.flare_runner dummy
 scoreboard objectives add um2.dragon_lash dummy
 scoreboard objectives add um2.dragons_wrath dummy

@@ -1,4 +1,5 @@
 scoreboard players add @s um2.since_attack 1
+scoreboard players add @s um2.since_dialog 1
 execute if score @s um2.demonomicon matches 1.. run function um2:item/demonomicon/trigger
 execute if score @s um2.cstick matches 1.. run function um2:entity/player/cstick
 execute if score @s um2.bow matches 1.. run function um2:entity/player/bow
