@@ -14,4 +14,6 @@ execute unless score $temp um2.dummy matches 0 run return run function um2:entit
 scoreboard players add @s um2.dummy2 1
 execute if score @s um2.dummy2 matches 100.. unless entity @s[tag=um2.fixed] run function um2:entity/tyrion_demon/fix
 
+data modify entity @s PortalCooldown set value 20
+
 #item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","values":[false]}}

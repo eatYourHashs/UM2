@@ -30,4 +30,6 @@ bossbar set um2:maxon players @a[distance=..60]
 execute store result score $temp um2.dummy run data get entity @s HurtTime
 execute unless score $temp um2.dummy matches 0 unless entity @s[tag=um2.death_anim] run return run function um2:entity/maxon/hurt
 
+data modify entity @s PortalCooldown set value 20
+
 #item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","values":[false]}}
