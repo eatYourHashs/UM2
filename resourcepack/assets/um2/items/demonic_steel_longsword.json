@@ -1,6 +1,25 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:item/demonic_steel_longsword"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
-      "model": "um2:item/demonic_steel_longsword"
-    }
-  }
+      "model": "um2:item/demonic_steel_longsword_in_hand"
+    },
+    "property": "minecraft:display_context"
+  },
+  "swap_animation_scale": 1.9
+}

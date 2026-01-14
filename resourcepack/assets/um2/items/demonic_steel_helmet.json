@@ -1,6 +1,19 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "um2:item/demonic_steel_helmet/head"
+        },
+        "when": "head"
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
-      "model": "um2:item/demonic_steel_helmet"
+      "model": "um2:item/demonic_steel_helmet/item"
     }
   }
+}

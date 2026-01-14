@@ -1,0 +1,6 @@
+{
+  "parent": "um2:item/greatsword_in_hand",
+  "textures": {
+    "layer0": "um2:item/demonic_steel_longsword_in_hand"
+  }
+}
