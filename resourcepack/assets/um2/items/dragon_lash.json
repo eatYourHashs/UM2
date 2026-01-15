@@ -1,6 +1,28 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
       "type": "minecraft:model",
-      "model": "um2:item/dragon_lash"
-    }
+      "model": "um2:item/dragon_lash/idle"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "entries": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:item/dragon_lash/lashing"
+          },
+          "threshold": 0.9
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "um2:item/dragon_lash/idle"
+      },
+      "property": "minecraft:use_duration",
+      "scale": 0.05
+    },
+    "property": "minecraft:using_item"
   }
+}

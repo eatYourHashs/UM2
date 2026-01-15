@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld_rod",
   "textures": {
-    "layer0": "um2:item/dragon_lash"
+    "layer0": "um2:item/dragon_lash/lashing"
   }
 }
