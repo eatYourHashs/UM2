@@ -1,1 +1,1 @@
-scoreboard players operation @s alch.version = $version alch.version
+scoreboard players operation @s um2.version = $version um2.version
