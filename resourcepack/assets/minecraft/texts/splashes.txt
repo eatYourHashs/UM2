@@ -510,3 +510,4 @@ Chicken Jockey!
 §cRelic and ritual!
 §cContains a little worldgen
 §cToolsmith incident!
+§cTruth nuke!
