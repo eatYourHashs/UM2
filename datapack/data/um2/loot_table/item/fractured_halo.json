@@ -1,0 +1,134 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_spear",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                [
+                  {
+                    "translate": "item.um2.fractured_halo.lore.1.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.fractured_halo.lore.1.2",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "item.um2.fractured_halo.lore.2.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.fractured_halo.lore.2.2",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.fractured_halo.lore.2.3",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.um2.fractured_halo.lore.3",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "um2:fractured_halo",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "um2:fractured_halo",
+                  "amount": -3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.um2.fractured_halo"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{um_dat:{fractured_halo:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "um2:fractured_halo",
+                "minecraft:rarity": "rare",
+                "minecraft:use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 1
+                },
+                "minecraft:minimum_attack_charge": 1,
+                "minecraft:damage_type": "minecraft:spear",
+                "minecraft:kinetic_weapon": {
+                  "delay_ticks": 10,
+                  "damage_conditions": {
+                    "max_duration_ticks": 200
+                  },
+                  "knockback_conditions": {
+                    "max_duration_ticks": 130
+                  },
+                  "dismount_conditions": {
+                    "max_duration_ticks": 60
+                  },
+                  "sound": "minecraft:item.spear.use",
+                  "hit_sound": "minecraft:item.spear.hit"
+                },
+                "minecraft:piercing_weapon": {
+                  "sound": "minecraft:item.spear.attack",
+                  "hit_sound": "minecraft:item.spear.hit"
+                },
+                "minecraft:attack_range": {
+                  "min_reach": 2,
+                  "max_reach": 4.5,
+                  "hitbox_margin": 0.125
+                },
+                "minecraft:swing_animation": {
+                  "type": "stab",
+                  "duration": 20
+                },
+                "!minecraft:max_damage": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                },
+                "minecraft:enchantable": {
+                  "value": 20
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

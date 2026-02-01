@@ -44,6 +44,13 @@
   "item.um2.demon_skin": "Demon Skin",
   "item.um2.demonic_steel_ingot": "Demonic Steel Ingot",
   "item.um2.nether_shard": "Nether Shard",
+  "item.um2.fractured_halo": "Fractured Halo",
+  "item.um2.fractured_halo.lore.1.1": "Hits deploy ",
+  "item.um2.fractured_halo.lore.1.2": "electric drone",
+  "item.um2.fractured_halo.lore.2.1": "Drone performs ",
+  "item.um2.fractured_halo.lore.2.2": "coordinated attacks",
+  "item.um2.fractured_halo.lore.2.3": " when other melee weapons hit",
+  "item.um2.fractured_halo.lore.3": "6 Attack Damage, 1 Attack Speed",
 
   "subtitle.um2.item.flare_runner.use": "Charges with Flare Runner",
   "subtitle.um2.item.flare_runner.cancel": "Flare Runner cancels",
