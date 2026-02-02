@@ -45,11 +45,11 @@
   "item.um2.demonic_steel_ingot": "Demonic Steel Ingot",
   "item.um2.nether_shard": "Nether Shard",
   "item.um2.fractured_halo": "Fractured Halo",
-  "item.um2.fractured_halo.lore.1.1": "Hits deploy ",
+  "item.um2.fractured_halo.lore.1.1": "Hits deploy an ",
   "item.um2.fractured_halo.lore.1.2": "electric drone",
   "item.um2.fractured_halo.lore.2.1": "Drone performs ",
   "item.um2.fractured_halo.lore.2.2": "coordinated attacks",
-  "item.um2.fractured_halo.lore.2.3": " when other melee weapons hit",
+  "item.um2.fractured_halo.lore.2.3": " when any melee weapon hits",
   "item.um2.fractured_halo.lore.3": "6 Attack Damage, 1 Attack Speed",
 
   "subtitle.um2.item.flare_runner.use": "Charges with Flare Runner",
@@ -66,6 +66,7 @@
   "subtitle.um2.item.dragons_wrath.explode": "Dragon's Wrath arrow bursts",
   "subtitle.um2.item.demonic_reinforced_bow.charge": "Perfect charge cue",
   "subtitle.um2.item.demonic_reinforced_bow.perfect_shot": "Perfect shot fired",
+  "subtitle.um2.item.fractured_halo.strike": "Fractured Halo strikes",
   "subtitle.um2.entity.tyrion_demon.hurt": "Tyrion Demon hurts",
   "subtitle.um2.entity.tyrion_demon.death": "Tyrion Demon dies",
   "subtitle.um2.entity.tyrion_demon.roar": "Tyrion Demon roars",
@@ -86,8 +87,10 @@
   "subtitle.um2.entity.maxon.burn": "Maxon burns",
 
   "entity.um2.tyrion_demon": "Tyrion Demon",
+  "entity.um2.centurion_demon": "Centurion Demon",
   "entity.um2.maxon": "Demon General Maxon",
   "entity.um2.maxon_plains_scorcher": "Maxon, Plains Scorcher",
+  "entity.um2.empyrean_array": "Empyrean Array",
 
   "advancements.um2.root.title": "Undermagic II",
   "advancements.um2.root.description": "Progression Expansion Reborn",
@@ -101,6 +104,12 @@
   "advancements.um2.maxon_no_hit.description": "Defeat Maxon without taking any damage",
   "advancements.um2.full_demonic_steel.title": "Demonic Reinforcement",
   "advancements.um2.full_demonic_steel.description": "While wearing a full set of Demonic Steel armor and wielding a Demonic Steel Longsword, trigger its absorption effect at the maximum strength",
+  "advancements.um2.temple_of_the_firmament.title": "Eye of the Storm",
+  "advancements.um2.temple_of_the_firmament.description": "Reach the Temple of the Firmament in the sky, where the Empyrean Array lies dormant",
+  "advancements.um2.empyrean_array.title": "Cry Not for the Discarded",
+  "advancements.um2.empyrean_array.description": "Awaken and defeat the Empyrean Array",
+  "advancements.um2.empyrean_array_no_hit.title": "Heaven Flies Before the Machine Soul",
+  "advancements.um2.empyrean_array_no_hit.description": "Defeat the Empyrean Array without taking any damage",
 
   "dialog.um2.main": "Demonomicon",
   "dialog.um2.back": "Back",
@@ -123,7 +132,13 @@
   "dialog.um2.maxon.1": "The Nether's heritage is strongest in General Maxon, the militaristic lord of all demons. He, like the rest of his race, is presently sealed beyond the Nether Portal, but should one wish to challenge him and stop his designs on the conquest of the Overworld, one would be able to do so with a contract known as the General's Conscription.",
   "dialog.um2.maxon.2": "Tips:\n\n - Maxon is a fearsome foe, stronger and far keener than the Ender Dragon or the Wither. Preparation is advised before challenging him; a flat area and various potions may be of use.\n\n - Maxon is highly aggressive and can quickly close any distance. Stay close to him to more easily avoid his thrusts.\n\n - The world difficulty affects not only Maxon's damage, but also the speed and patterns of his attacks. If you're having trouble avoiding damage, feel free to decrease it.\n\n - Shields are ineffective against Maxon, as he has mastered techniques allowing him to shatter them in only a few hits. Cowardice will be punished.\n\n - Rumor has it that Maxon's armor seals away the true power of his heritage...",
   "dialog.um2.maxon.3": "Defeating Maxon is the only way to claim his signature weapon, the polearm known as Flare Runner.",
+  "dialog.um2.empyrean_array.1": "High in the Overworld's sky at the Temple of the Firmament, an ancient construct known as the Empyrean Array sleeps. This forgotten superweapon, constructed by a long-gone civilization, holds the power to manipulate storms. The Array controls multiple robotic bodies at once, which it uses to perform synchronized attacks.",
+  "dialog.um2.empyrean_array.2": "Tips:\n\n - While the Empyrean Array can be reached and fought at any time, it is much easier to access with Elytra and is intended to be fought after the Ender Dragon. Preparation is advised before challenging it.\n\n - The world difficulty affects not only the Array's damage, but also the speed and complexity of its attack patterns. If you're having trouble avoiding damage, feel free to decrease it.\n\n - Damaging one of the Array's robotic bodies enough will disrupt its attacks for a time; focusing your damage can greatly reduce the threat of some attack patterns.\n\n - The Array may be able to harness the power of a second, much more devastating energy source in addition to electricity...",
+  "dialog.um2.empyrean_array.3": "Defeating the Empyrean Array is the only way to obtain Fractured Halo, a polearm derived from a fragment of its power.",
   "death.attack.maxon_fire": "%1$s was scorched with infernal flame",
   "death.attack.maxon_fire.player": "%1$s was scorched by %2$s",
-  "death.attack.maxon_fire.item": "%1$s was scorched by %2$s using %3$s"
+  "death.attack.maxon_fire.item": "%1$s was scorched by %2$s using %3$s",
+  "death.attack.electro": "%1$s died by electrocution",
+  "death.attack.electro.player": "%1$s was electrocuted by %2$s",
+  "death.attack.electro.item": "%1$s was electrocuted by %2$s using %3$s"
 }

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_weathered_copper_bulb"
+    },
+    "title": {
+      "translate": "advancements.um2.temple_of_the_firmament.title"
+    },
+    "description": {
+      "translate": "advancements.um2.temple_of_the_firmament.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "um2:um2/root",
+  "criteria": {
+    "temple_of_the_firmament": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

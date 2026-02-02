@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "um2:fractured_halo"
+      }
+    },
+    "title": {
+      "translate": "advancements.um2.empyrean_array.title"
+    },
+    "description": {
+      "translate": "advancements.um2.empyrean_array.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "um2:um2/temple_of_the_firmament",
+  "criteria": {
+    "maxon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

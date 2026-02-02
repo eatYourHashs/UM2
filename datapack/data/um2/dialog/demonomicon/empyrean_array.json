@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "entity.um2.empyrean_array"
+  },
+  "external_title": [{
+    "text": "\ua010",
+    "color": "white",
+    "shadow_color": 0,
+    "font": "um2:demonomicon_icons"
+  },
+  {
+      "text": " ",
+      "font": "minecraft:default"
+    },
+  {
+      "translate": "entity.um2.empyrean_array",
+      "shadow_color": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "font": "minecraft:default"
+    }],
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.empyrean_array.1"
+      },
+      "width": 400
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.empyrean_array.2"
+      },
+      "width": 400
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:diamond_spear",
+        "components": {
+          "minecraft:item_model": "um2:fractured_halo",
+          "minecraft:rarity": "rare",
+          "minecraft:item_name": {
+            "translate": "item.um2.fractured_halo"
+          },
+          "minecraft:lore": [
+                [
+                  {
+                    "translate": "item.um2.fractured_halo.lore.1.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.fractured_halo.lore.1.2",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "item.um2.fractured_halo.lore.2.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.fractured_halo.lore.2.2",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.um2.fractured_halo.lore.2.3",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.um2.fractured_halo.lore.3",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+        }
+      },
+      "description": {
+        "translate": "dialog.um2.empyrean_array.3"
+      },
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "action": {
+    "label": {
+      "translate": "dialog.um2.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "um2:demonomicon/main"
+    }
+  }
+}

@@ -83,6 +83,31 @@
       "um2:item/demonic_reinforced_bow/perfect_shot"
     ]
   },
+  "item.fractured_halo.strike": {
+    "subtitle": "subtitle.um2.item.fractured_halo.strike",
+    "sounds": [
+      {
+        "name": "um2:item/fractured_halo/strike",
+        "pitch": 0.95
+      },
+      {
+        "name": "um2:item/fractured_halo/strike",
+        "pitch": 1
+      },
+      {
+        "name": "um2:item/fractured_halo/strike",
+        "pitch": 1.05
+      },
+      {
+        "name": "um2:item/fractured_halo/strike",
+        "pitch": 1.1
+      },
+      {
+        "name": "um2:item/fractured_halo/strike",
+        "pitch": 1.15
+      }
+    ]
+  },
   "entity.tyrion_demon.hurt": {
     "subtitle": "subtitle.um2.entity.tyrion_demon.hurt",
     "sounds": [
