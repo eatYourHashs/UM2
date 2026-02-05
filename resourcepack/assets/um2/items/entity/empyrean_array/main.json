@@ -13,6 +13,13 @@
             "type": "minecraft:model",
             "model": "um2:entity/empyrean_array/hurt/spawn_anim"
           }
+        },
+        {
+          "when": "supercharge_strike_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/supercharge_strike_windup"
+          }
         }
       ],
       "fallback": {
@@ -29,6 +36,13 @@
           "model": {
             "type": "minecraft:model",
             "model": "um2:entity/empyrean_array/spawn_anim"
+          }
+        },
+        {
+          "when": "supercharge_strike_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/supercharge_strike_windup"
           }
         }
       ],

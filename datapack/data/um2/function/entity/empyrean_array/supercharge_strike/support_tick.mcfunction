@@ -1,0 +1,1 @@
+execute facing entity @n[tag=um2.supercharge_strike_main] feet run tp @s ~ ~ ~ ~ 0
