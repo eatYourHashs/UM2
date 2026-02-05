@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "um2:um_entity/empyrean_array/main",
-		"2": "um2:item/fractured_halo_in_hand",
+		"2": "um2:um_entity/empyrean_array/fractured_halo_in_hand",
 		"particle": "um2:um_entity/empyrean_array/main"
 	},
 	"elements": [

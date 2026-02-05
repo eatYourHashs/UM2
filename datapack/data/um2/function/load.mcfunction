@@ -28,6 +28,10 @@ bossbar add um2:maxon {"translate":"entity.um2.maxon"}
 bossbar set um2:maxon color red
 bossbar set um2:maxon max 300
 
+bossbar add um2:empyrean_array {"translate":"entity.um2.empyrean_array"}
+bossbar set um2:empyrean_array color blue
+bossbar set um2:empyrean_array max 400
+
 scoreboard players set $cons.-100 um2.dummy -100
 scoreboard players set $cons.-25 um2.dummy -25
 scoreboard players set $cons.-10 um2.dummy -10
@@ -71,6 +75,7 @@ scoreboard players set $cons.200 um2.dummy 200
 scoreboard players set $cons.220 um2.dummy 220
 scoreboard players set $cons.255 um2.dummy 255
 scoreboard players set $cons.256 um2.dummy 256
+scoreboard players set $cons.600 um2.dummy 600
 scoreboard players set $cons.999 um2.dummy 999
 scoreboard players set $cons.1000 um2.dummy 1000
 scoreboard players set $cons.65536 um2.dummy 65536

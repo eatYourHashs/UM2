@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "spawn_anim",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/spawn_anim"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "um2:entity/empyrean_array/hurt/main"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "spawn_anim",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/spawn_anim"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "um2:entity/empyrean_array/main"
+      }
+    }
+  }
+}

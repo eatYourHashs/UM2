@@ -1,0 +1,1 @@
+execute unless entity @e[type=marker,tag=um2.empyrean_array_controller] at @n[type=marker,tag=um2.temple_marker] run function um2:entity/empyrean_array/summon_at

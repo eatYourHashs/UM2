@@ -15,3 +15,5 @@ execute if entity @s[tag=um2.maxon_clone] run function um2:entity/maxon/charge/c
 execute if entity @s[tag=um2.maxon_giant_spear] run function um2:entity/maxon/giant_spears/giant_spear/tick
 execute if entity @s[tag=um2.fractured_halo_drone] run function um2:item/fractured_halo/drone/tick
 execute if entity @s[tag=um2.fractured_halo_strike] run function um2:item/fractured_halo/strike/tick
+execute if entity @s[tag=um2.empyrean_array] run function um2:entity/empyrean_array/tick
+execute if entity @s[tag=um2.empyrean_array_controller] run function um2:entity/empyrean_array/controller_tick
