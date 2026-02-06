@@ -237,5 +237,11 @@
     "sounds": [
       "um2:entity/maxon/burn"
     ]
+  },
+  "entity.empyrean_array.large_lightning": {
+    "subtitle": "subtitle.um2.entity.empyrean_array.large_lightning",
+    "sounds": [
+      "um2:entity/empyrean_array/large_lightning"
+    ]
   }
 }
