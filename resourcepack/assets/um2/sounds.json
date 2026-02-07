@@ -243,5 +243,11 @@
     "sounds": [
       "um2:entity/empyrean_array/large_lightning"
     ]
+  },
+  "entity.empyrean_array.charge": {
+    "subtitle": "subtitle.um2.entity.empyrean_array.charge",
+    "sounds": [
+      "um2:entity/empyrean_array/charge"
+    ]
   }
 }

@@ -1,5 +1,6 @@
 execute store result score $temp um2.dummy run data get entity @s HurtTime
 tp @n[tag=um2.empyrean_array_model,distance=..40] ~ ~ ~ ~ 0
+execute store result score @s um2.diff run difficulty
 
 execute if entity @s[tag=um2.supercharge_strike_main] run function um2:entity/empyrean_array/supercharge_strike/main_tick
 execute if entity @s[tag=um2.supercharge_strike_support] run function um2:entity/empyrean_array/supercharge_strike/support_tick
