@@ -1,0 +1,6 @@
+{
+    "parent": "um2:item/heap_driver/standby",
+    "textures": {
+        "layer0": "um2:item/heap_driver/pulling_0"
+    }
+}
