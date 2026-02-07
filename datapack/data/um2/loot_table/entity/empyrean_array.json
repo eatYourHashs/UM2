@@ -23,18 +23,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "um2:item/fractured_halo",
-              "conditions": [
-                {
-                  "condition": "minecraft:time_check",
-                  "clock": "minecraft:overworld",
-                  "value": {
-                    "min": 13000,
-                    "max": 23999
-                  },
-                  "period": 24000
-                }
-              ]
+              "value": "um2:item/fractured_halo"
             }
           ]
         }
