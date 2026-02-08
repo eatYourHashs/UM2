@@ -108,6 +108,29 @@
       }
     ]
   },
+  "item.heap_driver.impact": {
+    "subtitle": "subtitle.um2.item.heap_driver.impact",
+    "sounds": [
+      {
+        "name": "um2:item/heap_driver/impact",
+        "pitch": 1
+      },
+      {
+        "name": "um2:item/heap_driver/impact",
+        "pitch": 1.05
+      },
+      {
+        "name": "um2:item/heap_driver/impact",
+        "pitch": 1.1
+      }
+    ]
+  },
+  "item.heap_driver.shoot": {
+    "subtitle": "subtitle.um2.item.heap_driver.shoot",
+    "sounds": [
+      "um2:item/heap_driver/shoot"
+    ]
+  },
   "entity.tyrion_demon.hurt": {
     "subtitle": "subtitle.um2.entity.tyrion_demon.hurt",
     "sounds": [

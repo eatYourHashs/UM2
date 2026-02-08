@@ -37,5 +37,11 @@
 				"west": {"uv": [0, 4, 2, 6], "rotation": 270, "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"head": {
+			"translation": [0, 16, 6],
+			"scale": [2, 2, 2]
+		}
+	}
 }

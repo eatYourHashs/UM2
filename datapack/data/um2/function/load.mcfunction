@@ -11,6 +11,7 @@ scoreboard objectives add um2.flare_runner dummy
 scoreboard objectives add um2.dragon_lash dummy
 scoreboard objectives add um2.dragons_wrath dummy
 scoreboard objectives add um2.demonic_reinforced_bow dummy
+scoreboard objectives add um2.heap_driver dummy
 scoreboard objectives add um2.since_attack dummy
 scoreboard objectives add um2.demonic_steel_count dummy
 
@@ -20,6 +21,7 @@ scoreboard objectives add um2.diff dummy
 
 scoreboard objectives add um2.cstick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add um2.bow minecraft.used:minecraft.bow
+scoreboard objectives add um2.crossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add um2.attack minecraft.custom:minecraft.damage_dealt
 
 scoreboard players set $version um2.version 1

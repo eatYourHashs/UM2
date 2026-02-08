@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "um_dat": {
+                "heap_driver": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "um2:item/heap_driver/using"
+  }
+}

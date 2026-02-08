@@ -1,6 +1,6 @@
 stopsound @s player um2:item.dragons_wrath.unleash_charge
 playsound um2:item.dragons_wrath.unleash_charge player @a ~ ~ ~ 1 1.1
-summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,teleport_duration:1,Tags:["um2.ticking","um2.new","um2.entity","smithed.entity","um2.dragons_wrath_ult"],item_display:"head",item:{id:"minecraft:structure_block",count:1,components:{"minecraft:item_model":"um2:anim/dragons_wrath"}}}
+summon minecraft:item_display ~ ~ ~ {brightness:{block:15,sky:15},interpolation_duration:1,teleport_duration:1,Tags:["um2.ticking","um2.new","um2.entity","smithed.entity","um2.dragons_wrath_ult"],item_display:"head",item:{id:"minecraft:structure_block",count:1,components:{"minecraft:item_model":"um2:anim/dragons_wrath"}}}
 execute positioned ~ ~1.5 ~ positioned ^ ^ ^1 run tp @n[tag=um2.new] ~ ~ ~ ~ ~
 # dummy: clock (which we dont change here)
 # dummy2: damage

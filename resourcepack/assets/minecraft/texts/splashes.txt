@@ -488,7 +488,8 @@ Chicken Jockey!
 §cListen to Holst!
 §cListen to Stravinsky!
 §cListen to Mahler!
-§cOnly 3 bosses!
+§cListen to Shostakovich!
+§cFewer bosses than Terraria!
 §cSteve beats Goku!
 §cSteve is in Smash!
 §cNow with dev textures!
@@ -511,3 +512,4 @@ Chicken Jockey!
 §cContains a little worldgen
 §cToolsmith incident!
 §cTruth nuke!
+§cNow with overtechnology!
