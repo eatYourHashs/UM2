@@ -328,5 +328,11 @@
     "sounds": [
       "um2:entity/empyrean_array/stagger"
     ]
+  },
+  "entity.empyrean_array.support": {
+    "subtitle": "subtitle.um2.entity.empyrean_array.support",
+    "sounds": [
+      "um2:entity/empyrean_array/support"
+    ]
   }
 }

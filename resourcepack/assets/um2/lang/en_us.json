@@ -100,6 +100,8 @@
   "subtitle.um2.entity.empyrean_array.large_lightning": "Empyrean Array strikes",
   "subtitle.um2.entity.empyrean_array.charge": "Empyrean Array charges up",
   "subtitle.um2.entity.empyrean_array.stagger": "Empyrean Array staggers",
+  "subtitle.um2.entity.empyrean_array.support": "Empyrean Array provides support",
+  "subtitle.um2.entity.empyrean_array.charge_fail": "Empyrean Array fails attack",
 
   "entity.um2.tyrion_demon": "Tyrion Demon",
   "entity.um2.centurion_demon": "Centurion Demon",

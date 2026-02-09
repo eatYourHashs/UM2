@@ -36,6 +36,20 @@
           }
         },
         {
+          "when": "supercharge_strike_support",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/supercharge_strike_support"
+          }
+        },
+        {
+          "when": "supercharge_strike_support2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/supercharge_strike_support2"
+          }
+        },
+        {
           "when": "stagger",
           "model": {
             "type": "minecraft:model",
@@ -78,6 +92,20 @@
           "model": {
             "type": "minecraft:model",
             "model": "um2:entity/empyrean_array/supercharge_strike_end"
+          }
+        },
+        {
+          "when": "supercharge_strike_support",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/supercharge_strike_support"
+          }
+        },
+        {
+          "when": "supercharge_strike_support2",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/supercharge_strike_support2"
           }
         },
         {
