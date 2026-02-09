@@ -108,6 +108,31 @@
       }
     ]
   },
+  "item.heap_driver.strike": {
+    "subtitle": "subtitle.um2.item.heap_driver.strike",
+    "sounds": [
+      {
+        "name": "um2:item/heap_driver/strike",
+        "pitch": 0.95
+      },
+      {
+        "name": "um2:item/heap_driver/strike",
+        "pitch": 1
+      },
+      {
+        "name": "um2:item/heap_driver/strike",
+        "pitch": 1.05
+      },
+      {
+        "name": "um2:item/heap_driver/strike",
+        "pitch": 1.1
+      },
+      {
+        "name": "um2:item/heap_driver/strike",
+        "pitch": 1.15
+      }
+    ]
+  },
   "item.heap_driver.impact": {
     "subtitle": "subtitle.um2.item.heap_driver.impact",
     "sounds": [
@@ -271,6 +296,31 @@
     "subtitle": "subtitle.um2.entity.empyrean_array.charge",
     "sounds": [
       "um2:entity/empyrean_array/charge"
+    ]
+  },
+  "entity.empyrean_array.strike": {
+    "subtitle": "subtitle.um2.entity.empyrean_array.strike",
+    "sounds": [
+      {
+        "name": "um2:entity/empyrean_array/strike",
+        "pitch": 0.95
+      },
+      {
+        "name": "um2:entity/empyrean_array/strike",
+        "pitch": 1
+      },
+      {
+        "name": "um2:entity/empyrean_array/strike",
+        "pitch": 1.05
+      },
+      {
+        "name": "um2:entity/empyrean_array/strike",
+        "pitch": 1.1
+      },
+      {
+        "name": "um2:entity/empyrean_array/strike",
+        "pitch": 1.15
+      }
     ]
   }
 }

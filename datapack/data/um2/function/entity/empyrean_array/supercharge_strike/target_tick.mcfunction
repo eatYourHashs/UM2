@@ -1,1 +1,0 @@
-particle minecraft:enchanted_hit ~ ~1 ~ 0.6 0.6 0.6 0.3 3
