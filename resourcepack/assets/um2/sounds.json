@@ -322,5 +322,11 @@
         "pitch": 1.15
       }
     ]
+  },
+  "entity.empyrean_array.stagger": {
+    "subtitle": "subtitle.um2.entity.empyrean_array.stagger",
+    "sounds": [
+      "um2:entity/empyrean_array/stagger"
+    ]
   }
 }

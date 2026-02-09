@@ -5,3 +5,6 @@ tag @s remove um2.supercharge_strike_main
 tag @s remove um2.supercharge_strike_support
 
 tag @s remove um2.attacking
+tag @s remove um2.stagger
+
+execute if score @s um2.dummy3 matches 60.. run scoreboard players set @s um2.dummy3 0

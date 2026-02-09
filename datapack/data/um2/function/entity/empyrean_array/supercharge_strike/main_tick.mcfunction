@@ -7,4 +7,3 @@ execute if score @s um2.dummy matches 108 run item modify entity @s armor.chest 
 execute if score @s um2.dummy matches 110 run function um2:entity/empyrean_array/supercharge_strike/swing
 #execute if score @s um2.dummy matches 114 run effect give @a[distance=..20] minecraft:darkness 2 0 true
 execute if score @s um2.dummy matches 116 run function um2:entity/empyrean_array/supercharge_strike/strike
-execute if score @s um2.dummy matches 190.. as @n[tag=um2.empyrean_array_controller] at @s run function um2:entity/empyrean_array/reset_controller
