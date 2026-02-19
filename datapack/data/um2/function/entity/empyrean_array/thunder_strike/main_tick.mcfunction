@@ -1,0 +1,1 @@
+scoreboard players add @s um2.dummy 1

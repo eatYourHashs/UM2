@@ -50,6 +50,27 @@
           }
         },
         {
+          "when": "thunder_strike_charge",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/thunder_strike_charge"
+          }
+        },
+        {
+          "when": "thunder_strike",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/thunder_strike"
+          }
+        },
+        {
+          "when": "thunder_strike_support",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/thunder_strike_support"
+          }
+        },
+        {
           "when": "stagger",
           "model": {
             "type": "minecraft:model",
@@ -106,6 +127,27 @@
           "model": {
             "type": "minecraft:model",
             "model": "um2:entity/empyrean_array/supercharge_strike_support2"
+          }
+        },
+        {
+          "when": "thunder_strike_charge",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/thunder_strike_charge"
+          }
+        },
+        {
+          "when": "thunder_strike",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/thunder_strike"
+          }
+        },
+        {
+          "when": "thunder_strike_support",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/thunder_strike_support"
           }
         },
         {

@@ -23,3 +23,4 @@ execute if entity @s[tag=um2.empyrean_array_giant_lightning] run function um2:en
 execute if entity @s[tag=um2.empyrean_array_lightning_marker] run function um2:entity/empyrean_array/lightning/marker_tick
 execute if entity @s[tag=um2.empyrean_array_lightning] run function um2:entity/empyrean_array/lightning/tick
 execute if entity @s[tag=um2.empyrean_array_lightning_storm] run function um2:entity/empyrean_array/lightning_storm/tick
+execute if entity @s[tag=um2.empyrean_array_line_caster] run function um2:entity/empyrean_array/line_caster/tick

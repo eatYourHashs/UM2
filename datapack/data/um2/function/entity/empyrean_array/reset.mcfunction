@@ -5,6 +5,8 @@ tag @s remove um2.supercharge_strike_main
 tag @s remove um2.supercharge_strike_support
 tag @s remove um2.charged_1
 tag @s remove um2.charged_2
+tag @s remove um2.thunder_strike_main
+tag @s remove um2.thunder_strike_support
 
 tag @s remove um2.attacking
 tag @s remove um2.stagger
