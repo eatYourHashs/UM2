@@ -71,6 +71,20 @@
           }
         },
         {
+          "when": "dash_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/dash_windup"
+          }
+        },
+        {
+          "when": "dash",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/dash"
+          }
+        },
+        {
           "when": "stagger",
           "model": {
             "type": "minecraft:model",
@@ -148,6 +162,20 @@
           "model": {
             "type": "minecraft:model",
             "model": "um2:entity/empyrean_array/thunder_strike_support"
+          }
+        },
+        {
+          "when": "dash_windup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/dash_windup"
+          }
+        },
+        {
+          "when": "dash",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/dash"
           }
         },
         {
