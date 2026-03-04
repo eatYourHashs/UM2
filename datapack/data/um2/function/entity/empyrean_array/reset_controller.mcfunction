@@ -1,5 +1,6 @@
 tag @s remove um2.supercharge_strike
 tag @s remove um2.thunder_strike
+tag @s remove um2.parallel_dash
 kill @e[tag=um2.supercharge_strike_target]
 
 tag @s remove um2.attacking

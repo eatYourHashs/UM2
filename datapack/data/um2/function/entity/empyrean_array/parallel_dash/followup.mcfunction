@@ -1,0 +1,2 @@
+item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["dash_followup"]}}
+execute rotated ~180 ~ run function um2:entity/empyrean_array/line_caster/summon

@@ -1,0 +1,2 @@
+data modify entity @n[tag=um2.empyrean_array_model] teleport_duration set value 1
+item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["dash"]}}

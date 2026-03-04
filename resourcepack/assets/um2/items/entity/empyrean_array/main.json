@@ -85,6 +85,13 @@
           }
         },
         {
+          "when": "dash_followup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/hurt/dash_followup"
+          }
+        },
+        {
           "when": "stagger",
           "model": {
             "type": "minecraft:model",
@@ -176,6 +183,13 @@
           "model": {
             "type": "minecraft:model",
             "model": "um2:entity/empyrean_array/dash"
+          }
+        },
+        {
+          "when": "dash_followup",
+          "model": {
+            "type": "minecraft:model",
+            "model": "um2:entity/empyrean_array/dash_followup"
           }
         },
         {
