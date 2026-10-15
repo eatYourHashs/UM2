@@ -3,15 +3,17 @@
     "kill_trader_entity": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"um2.tyrion_demon\"]}"
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "um2.tyrion_demon"
+              ]
             }
           }
-        ]
+        }
       }
     }
   },
