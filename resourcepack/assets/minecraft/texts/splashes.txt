@@ -467,9 +467,9 @@ Chicken Jockey!
 §cAlso try Hades II!
 §cAlso try Deltarune!
 §cAlso try OMORI!
-§cAlso try Calamity Mod!
 §cAlso try Thaumcraft!
 §cAlso try Botania!
+§cAlso try GregTech: New Horizons!
 §cAlso try PokeRogue!
 §cAlso try NieR:Automata!
 §cAlso try Doki Doki Literature Club!
@@ -489,6 +489,7 @@ Chicken Jockey!
 §cListen to Stravinsky!
 §cListen to Mahler!
 §cListen to Shostakovich!
+§cListen to Rachmaninoff!
 §cFewer bosses than Terraria!
 §cSteve beats Goku!
 §cSteve is in Smash!
