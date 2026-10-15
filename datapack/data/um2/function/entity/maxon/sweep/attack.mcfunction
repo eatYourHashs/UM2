@@ -1,4 +1,4 @@
-item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["sweep"]}}
+item modify entity @s armor.chest {"type":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["sweep"]}}
 summon minecraft:marker ~ ~ ~ {Tags:["um2.ticking","um2.maxon_sweep","um2.back"]}
 execute if score @s um2.diff matches ..1 at @s run tp @n[tag=um2.maxon_sweep] ^ ^1.5 ^0.8 ~-70 0
 execute if score @s um2.diff matches 2 at @s run tp @n[tag=um2.maxon_sweep] ^ ^1.5 ^0.8 ~-80 0

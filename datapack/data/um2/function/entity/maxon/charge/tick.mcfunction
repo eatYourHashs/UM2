@@ -8,14 +8,14 @@ execute if score @s um2.dummy matches 0 if score @s um2.diff matches 3.. run sco
 
 execute at @s if score @s[tag=um2.phase_2] um2.dummy matches 20 run function um2:entity/maxon/charge/clone/spawn
 
-execute if score @s um2.dummy matches 30 run item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["charge"]}}
+execute if score @s um2.dummy matches 30 run item modify entity @s armor.chest {"type":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["charge"]}}
 execute if score @s um2.dummy matches 30 run playsound um2:entity.maxon.charge hostile @a ~ ~ ~ 2 1
 execute if score @s um2.dummy matches 30..49 run function um2:entity/maxon/charge/attacking
 
 execute if score @s um2.dummy matches 50 run function um2:entity/maxon/charge/reset
 execute at @s if score @s[tag=um2.phase_2] um2.dummy matches 60 run function um2:entity/maxon/charge/clone/spawn
 
-execute if score @s um2.dummy matches 70 run item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["charge"]}}
+execute if score @s um2.dummy matches 70 run item modify entity @s armor.chest {"type":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["charge"]}}
 execute if score @s um2.dummy matches 70 run playsound um2:entity.maxon.charge hostile @a ~ ~ ~ 2 1
 execute if score @s um2.dummy matches 70..89 run function um2:entity/maxon/charge/attacking
 

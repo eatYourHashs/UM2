@@ -1,7 +1,7 @@
 # dummy3: amount of dmg taken to this body
 # controller dummy3: overall hp left
 execute if score $temp um2.dummy matches 10 run playsound um2:entity.empyrean_array.hurt hostile @a ~ ~ ~ 0.9 1
-item modify entity @n[tag=um2.empyrean_array_model] container.0 {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
+item modify entity @n[tag=um2.empyrean_array_model] container.0 {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
 execute store result score $temp.hp um2.dummy run data get entity @s Health
 scoreboard players set $temp.hp_change um2.dummy 600
 scoreboard players operation $temp.hp_change um2.dummy -= $temp.hp um2.dummy

@@ -1,4 +1,4 @@
-item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["supercharge_strike_end"]}}
+item modify entity @s armor.chest {"type":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["supercharge_strike_end"]}}
 kill @n[tag=um2.supercharge_strike_target]
 execute if entity @s[tag=!um2.charged_1] run playsound um2:entity.empyrean_array.charge_fail hostile @a ~ ~ ~ 1 1
 execute if entity @s[tag=!um2.charged_1] run summon minecraft:item_display ~ ~ ~ {brightness:{block:15,sky:15},interpolation_duration:4,teleport_duration:4,Tags:["um2.ticking","smithed.entity","um2.empyrean_array_lightning"],item_display:"head",item:{id:"minecraft:structure_block",count:1,components:{"minecraft:item_model":"um2:anim/fractured_halo_strike"}}}

@@ -32,4 +32,4 @@ execute unless score $temp um2.dummy matches 0 unless entity @s[tag=um2.death_an
 
 data modify entity @s PortalCooldown set value 20
 
-#item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","values":[false]}}
+#item modify entity @s armor.head {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","values":[false]}}

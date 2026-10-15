@@ -1,4 +1,4 @@
-item modify entity @s armor.chest {"function":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["thunder_strike"]}}
+item modify entity @s armor.chest {"type":"minecraft:set_custom_model_data","strings":{"mode":"replace_all","values":["thunder_strike"]}}
 playsound um2:entity.empyrean_array.large_lightning hostile @a ~ ~ ~ 2 1
 function um2:entity/empyrean_array/giant_lightning/spawn
 particle minecraft:explosion_emitter ~ ~ ~ 4.5 2 4.5 0 5
