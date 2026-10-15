@@ -1,8 +1,8 @@
 {
    "pack": {
-      "pack_format": 83,
-      "min_format": 75,
-      "max_format": 83,
+      "pack_format": 97,
+      "min_format": 97,
+      "max_format": 97,
       "description": "Progression Expansion Reborn"
    }
 }
