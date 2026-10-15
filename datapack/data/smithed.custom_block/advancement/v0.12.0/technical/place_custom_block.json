@@ -1,0 +1,62 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "#smithed.custom_block:placeable",
+              "nbt": "{Items:[{components:{\"minecraft:custom_data\":{smithed:{block:{}}}}}]}"
+            }
+          }
+        },
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:int_value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#smithed.custom_block.major"
+                },
+                "score": "load.status"
+              },
+              "test": 0
+            },
+            {
+              "type": "minecraft:int_value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#smithed.custom_block.minor"
+                },
+                "score": "load.status"
+              },
+              "test": 12
+            },
+            {
+              "type": "minecraft:int_value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#smithed.custom_block.patch"
+                },
+                "score": "load.status"
+              },
+              "test": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "smithed.custom_block:v0.12.0/place"
+  }
+}
