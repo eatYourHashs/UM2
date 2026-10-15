@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_spear",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [
                   {
@@ -43,7 +43,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:attack_damage",
@@ -62,18 +62,18 @@
               ]
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "target": "item_name",
               "name": {
                 "translate": "item.um2.flare_runner"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{flare_runner:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:flare_runner",
                 "minecraft:rarity": "rare",
@@ -106,7 +106,7 @@
                   "max_reach": 5,
                   "hitbox_margin": 0.25
                 },
-                "minecraft:swing_animation": {
+                "minecraft:attack_animation": {
                   "type": "stab",
                   "duration": 20
                 },

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [
                   {
@@ -60,18 +60,18 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "target": "item_name",
               "name": {
                 "translate": "item.um2.heap_driver"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{heap_driver:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:heap_driver",
                 "minecraft:rarity": "rare",

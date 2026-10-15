@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 {
                   "translate": "item.um2.dragon_lash.lore.1",
@@ -29,7 +29,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:attack_damage",
@@ -48,18 +48,18 @@
               ]
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "target": "item_name",
               "name": {
                 "translate": "item.um2.dragon_lash"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{dragon_lash:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:dragon_lash",
                 "minecraft:rarity": "uncommon",
@@ -95,7 +95,7 @@
                 "minecraft:enchantable": {
                   "value": 10
                 },
-                "minecraft:swing_animation": {
+                "minecraft:attack_animation": {
                   "type": "none"
                 }
               }

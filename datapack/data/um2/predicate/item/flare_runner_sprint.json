@@ -1,11 +1,10 @@
 {
-  "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "flags": {
+    "minecraft:flags": {
       "is_sprinting": true
     },
-    "equipment": {
+    "minecraft:equipment": {
       "mainhand": {
         "components": {
           "minecraft:custom_data": {
@@ -16,5 +15,6 @@
         }
       }
     }
-  }
+  },
+  "type": "minecraft:entity_properties"
 }

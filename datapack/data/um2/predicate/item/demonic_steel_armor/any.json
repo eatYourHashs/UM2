@@ -1,25 +1,10 @@
 {
-  "condition": "minecraft:any_of",
   "terms": [
-    {
-      "condition": "minecraft:reference",
-      "name": "um2:item/demonic_steel_armor/helmet"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "um2:item/demonic_steel_armor/chestplate"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "um2:item/demonic_steel_armor/leggings"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "um2:item/demonic_steel_armor/boots"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "um2:item/demonic_steel_armor/longsword"
-    }
-  ]
+    "um2:item/demonic_steel_armor/helmet",
+    "um2:item/demonic_steel_armor/chestplate",
+    "um2:item/demonic_steel_armor/leggings",
+    "um2:item/demonic_steel_armor/boots",
+    "um2:item/demonic_steel_armor/longsword"
+  ],
+  "type": "minecraft:any_of"
 }

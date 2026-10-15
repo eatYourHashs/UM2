@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [
                   {
@@ -41,18 +41,18 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "target": "item_name",
               "name": {
                 "translate": "item.um2.demonic_reinforced_bow"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{demonic_reinforced_bow:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:demonic_reinforced_bow",
                 "minecraft:rarity": "common",

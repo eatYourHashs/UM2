@@ -36,18 +36,19 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_spear",
           "weight": 2,
-          "functions": []
+          "modifier": []
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:coal",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "min": 3,
-                "max": 7
+                "max": 7,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -61,12 +62,13 @@
           "type": "minecraft:item",
           "name": "minecraft:flint",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "min": 3,
-                "max": 6
+                "max": 6,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -75,12 +77,13 @@
           "type": "minecraft:loot_table",
           "value": "um2:item/demon_skin",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "min": 2,
-                "max": 5
+                "max": 5,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -89,12 +92,13 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_chain",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "min": 3,
-                "max": 7
+                "max": 7,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -103,12 +107,13 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 3,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -117,12 +122,13 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 3,
+                "type": "minecraft:uniform"
               }
             }
           ]

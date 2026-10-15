@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [
                   {
@@ -36,7 +36,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:armor",
@@ -55,18 +55,18 @@
               ]
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "target": "item_name",
               "name": {
                 "translate": "item.um2.demonic_steel_chestplate"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{demonic_steel_chestplate:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:demonic_steel_chestplate",
                 "minecraft:rarity": "common",

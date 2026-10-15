@@ -9,17 +9,15 @@
             {
               "type": "minecraft:loot_table",
               "value": "um2:item/heap_driver",
-              "conditions": [
-                {
-                  "condition": "minecraft:time_check",
-                  "clock": "minecraft:overworld",
-                  "value": {
-                    "min": 0,
-                    "max": 12999
-                  },
-                  "period": 24000
-                }
-              ]
+              "condition": {
+                "type": "minecraft:time_check",
+                "clock": "minecraft:overworld",
+                "value": {
+                  "min": 0,
+                  "max": 12999
+                },
+                "period": 24000
+              }
             },
             {
               "type": "minecraft:loot_table",

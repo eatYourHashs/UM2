@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:structure_block",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [{
                   "translate": "item.um2.generals_conscription.lore.1.1",
@@ -29,18 +29,18 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "target": "item_name",
               "name": {
                 "translate": "item.um2.generals_conscription"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{generals_conscription:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:generals_conscription",
                 "minecraft:rarity": "common",

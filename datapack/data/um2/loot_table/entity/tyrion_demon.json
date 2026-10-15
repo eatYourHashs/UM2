@@ -6,9 +6,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "um2:item/demon_skin",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchanted_count_increase",
+              "type": "minecraft:enchanted_count_increase",
               "count": 1,
               "enchantment": "minecraft:looting"
             }
@@ -22,13 +22,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:structure_block",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{death_item:1b,clear:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "minecraft:air"
               }

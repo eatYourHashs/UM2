@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_spear",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 [
                   {
@@ -48,7 +48,7 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_attributes",
+              "type": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "minecraft:attack_damage",
@@ -67,18 +67,18 @@
               ]
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "target": "item_name",
               "name": {
                 "translate": "item.um2.fractured_halo"
               }
             },
             {
-              "function": "minecraft:set_custom_data",
+              "type": "minecraft:set_custom_data",
               "tag": "{um_dat:{fractured_halo:1b}}"
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "um2:fractured_halo",
                 "minecraft:rarity": "rare",
@@ -111,7 +111,7 @@
                   "max_reach": 4.5,
                   "hitbox_margin": 0.125
                 },
-                "minecraft:swing_animation": {
+                "minecraft:attack_animation": {
                   "type": "stab",
                   "duration": 20
                 },
