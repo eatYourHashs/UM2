@@ -285,54 +285,5 @@
     "sounds": [
       "um2:entity/maxon/burn"
     ]
-  },
-  "entity.empyrean_array.large_lightning": {
-    "subtitle": "subtitle.um2.entity.empyrean_array.large_lightning",
-    "sounds": [
-      "um2:entity/empyrean_array/large_lightning"
-    ]
-  },
-  "entity.empyrean_array.charge": {
-    "subtitle": "subtitle.um2.entity.empyrean_array.charge",
-    "sounds": [
-      "um2:entity/empyrean_array/charge"
-    ]
-  },
-  "entity.empyrean_array.strike": {
-    "subtitle": "subtitle.um2.entity.empyrean_array.strike",
-    "sounds": [
-      {
-        "name": "um2:entity/empyrean_array/strike",
-        "pitch": 0.95
-      },
-      {
-        "name": "um2:entity/empyrean_array/strike",
-        "pitch": 1
-      },
-      {
-        "name": "um2:entity/empyrean_array/strike",
-        "pitch": 1.05
-      },
-      {
-        "name": "um2:entity/empyrean_array/strike",
-        "pitch": 1.1
-      },
-      {
-        "name": "um2:entity/empyrean_array/strike",
-        "pitch": 1.15
-      }
-    ]
-  },
-  "entity.empyrean_array.stagger": {
-    "subtitle": "subtitle.um2.entity.empyrean_array.stagger",
-    "sounds": [
-      "um2:entity/empyrean_array/stagger"
-    ]
-  },
-  "entity.empyrean_array.support": {
-    "subtitle": "subtitle.um2.entity.empyrean_array.support",
-    "sounds": [
-      "um2:entity/empyrean_array/support"
-    ]
   }
 }
