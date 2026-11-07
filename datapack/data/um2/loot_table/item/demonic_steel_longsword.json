@@ -44,7 +44,7 @@
             },
             {
               "type": "minecraft:set_custom_data",
-              "tag": "{um_dat:{demonic_steel_longsword:1b}}"
+              "tag": "{um_dat:{demonic_steel_longsword:1b},smithed:{ignore:{functionality:1b,crafting:1b}}}"
             },
             {
               "type": "minecraft:set_attributes",

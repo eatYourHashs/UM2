@@ -75,7 +75,7 @@
             },
             {
               "type": "minecraft:set_custom_data",
-              "tag": "{um_dat:{fractured_halo:1b}}"
+              "tag": "{um_dat:{fractured_halo:1b},smithed:{ignore:{functionality:1b,crafting:1b}}}"
             },
             {
               "type": "minecraft:set_components",
