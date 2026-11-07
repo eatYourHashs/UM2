@@ -16,5 +16,17 @@
     }
   ],
   "functions": [],
-  "random_sequence": "minecraft:entities/ender_dragon"
+  "random_sequence": "minecraft:entities/ender_dragon",
+  "__smithed__": {
+    "rules": [
+      {
+        "type":"append",
+        "target":"pools",
+        "source": {
+          "type":"reference",
+          "path":"pools[0]"
+        }
+      }
+    ]
+  }
 }
