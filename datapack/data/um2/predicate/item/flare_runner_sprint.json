@@ -6,7 +6,7 @@
     },
     "minecraft:equipment": {
       "mainhand": {
-        "components": {
+        "predicates": {
           "minecraft:custom_data": {
             "um_dat": {
               "flare_runner": 1
