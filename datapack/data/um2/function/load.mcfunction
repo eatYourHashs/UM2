@@ -24,15 +24,11 @@ scoreboard objectives add um2.bow minecraft.used:minecraft.bow
 scoreboard objectives add um2.crossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add um2.attack minecraft.custom:minecraft.damage_dealt
 
-scoreboard players set $version um2.version 1
+scoreboard players set $version um2.version 2
 
 bossbar add um2:maxon {"translate":"entity.um2.maxon"}
 bossbar set um2:maxon color red
 bossbar set um2:maxon max 300
-
-bossbar add um2:empyrean_array {"translate":"entity.um2.empyrean_array"}
-bossbar set um2:empyrean_array color blue
-bossbar set um2:empyrean_array max 400
 
 scoreboard players set $cons.-100 um2.dummy -100
 scoreboard players set $cons.-25 um2.dummy -25
