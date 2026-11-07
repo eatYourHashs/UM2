@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "dialog.um2.about.title",
+    "fallback": "Undermagic II"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.about.desc",
+        "fallback": "A datapack that expands the progression of the game with unique new gear and challenging boss fights. Inspired heavily by the Calamity Mod, this pack is a re-imagining of the original from 2019 and is currently in an early release state.\n\nClick below to open the Demonomicon for all information about the pack!"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "dialog.um2.about.info",
+        "fallback": "v1.1.0\nby Hashs",
+        "color": "gray"
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": [
+        {
+          "text": "ꀇ",
+          "color": "white",
+          "shadow_color": 0,
+          "font": "um2:demonomicon_icons"
+        },
+        {
+          "text": " ",
+          "font": "minecraft:default"
+        },
+        {
+          "translate": "dialog.um2.about.demonomicon",
+          "fallback": "Open Demonomicon",
+          "shadow_color": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "um2:demonomicon/main"
+      }
+    },
+    {
+      "label": "Discord",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://discord.gg/UYxhxDj"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

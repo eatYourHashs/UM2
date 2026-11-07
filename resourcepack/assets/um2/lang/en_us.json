@@ -128,6 +128,11 @@
   "advancements.um2.empyrean_array_no_hit.title": "Heaven Flies Before the Machine Soul",
   "advancements.um2.empyrean_array_no_hit.description": "Defeat the Empyrean Array without taking any damage",
 
+  "dialog.um2.about.title": "Undermagic II",
+  "dialog.um2.about.desc": "A datapack that expands the progression of the game with unique new gear and challenging boss fights. Inspired heavily by the Calamity Mod, this pack is a re-imagining of the original from 2019 and is currently in an early release state.\n\nClick below to open the Demonomicon for all information about the pack!",
+  "dialog.um2.about.info": "v1.1.0\nby Hashs",
+  "dialog.um2.about.demonomicon": "Open Demonomicon",
+
   "dialog.um2.main": "Demonomicon",
   "dialog.um2.back": "Back",
   "dialog.um2.close": "Close",
